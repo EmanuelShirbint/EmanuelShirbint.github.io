@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://emanuelshirbint.github.io/sitemap.xml
+
