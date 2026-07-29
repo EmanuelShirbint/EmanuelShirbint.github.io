@@ -1,1 +1,129 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care — Emanuel Shirbint</title><meta name="description" content="Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persu"><meta name="author" content="Emanuel Shirbint"><link rel="canonical" href="https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/"><meta property="og:type" content="article"><meta property="og:title" content="From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care"><meta property="og:url" content="https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/"><meta name="citation_title" content="From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care"><meta name='citation_author' content='Emanuel Shirbint'><meta name='citation_author' content='Alexander Rybalov'><meta name="citation_publication_date" content="2026-05-12"><meta name="citation_doi" content="10.20944/preprints202605.0728.v1"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care","author":[{"@type":"Person","name":"Emanuel Shirbint"},{"@type":"Person","name":"Alexander Rybalov"}],"datePublished":"2026-05-12","abstract":"Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persuasive, yet abductively unsound clinical explanations. In this context, abductive soundness means that an explanation preserves mechanistic plausibility, temporal coherence, explicit handling of missing premises, and sensitivity to counter-evidence. This article reframes the problem as architectural rather than as a mere deficit in training data. We identify three recurrent modes of abductive failure — missing-premise neglect, weak-mechanism support, and counter-evidence discounting. They arise when local semantics, formal world ontology, and the role-specific clinical semiosphere are collapsed into a single surface flow of generation. We propose a governed abductive architecture organised around seven runtime contours and operationalise it in the MS-AGIP platform for multiple sclerosis care. The architecture separates three subsystems: an ontology-guided Research Framework, a clinician-facing Neurologist Digital Twin, and a patient-controlled Patient Digital Twin. We show how disease-specific causal templates, evidence-tiered biomarker reasoning, provenance labels, temporal-coherence checks, molecular-clinical discordance detection, and governed patient-feedback updates jointly transform plausible narrative into sound abduction. The article presents an architectural blueprint and validation protocol aligned with TRIPOD+AI and DECIDE-AI. The architectural-versus-scale distinction has direct implications for safe medical AI: the difference between a fluent and a sound clinical system lies more in architecture and governance than in model size. None of the subsystems has yet been clinically deployed.","keywords":"patient digital twins, abductive reasoning, governed abductive architecture, clinical decision support, multiple sclerosis","identifier":"https://doi.org/10.20944/preprints202605.0728.v1","url":"https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/","sameAs":["https://www.preprints.org/manuscript/202605.0728"],"isAccessibleForFree":true}</script></head><body><header><nav><a href="/">Emanuel Shirbint</a><a href="/who-is-emanuel-shirbint/">Who</a><a href="/research/">Research</a><a href="/data-ai-architecture/">Data & AI</a><a href="/governed-agent-systems/">Governed agents</a><a href="/llm-safety-evaluation/">LLM safety</a><a href="/clinical-ai/">Clinical AI</a><a href="/publications/">Publications</a><a href="/projects/">Projects</a><a href="/contact/">Contact</a></nav></header><main><section class="hero"><p class="eyebrow">PREPRINT &#183; CONCEPTUAL_FRAMEWORK</p><h1>From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care</h1><p class="dek">Emanuel Shirbint, Alexander Rybalov</p></section><p><strong>Status:</strong> Not peer-reviewed · PUBLIC_PREPRINT_V1</p><p><strong>Emanuel Shirbint author position:</strong> 1 of 2</p><p><strong>Affiliations:</strong> Independent Researcher, Israel; LAMBDA - Laboratory for AI, Machine Learning, Business &amp; Data Analytics, Tel Aviv University</p><p><strong>Published / posted:</strong> 2026-05-12 · <a href="https://www.preprints.org/manuscript/202605.0728">Official record</a> · <a href="https://doi.org/10.20944/preprints202605.0728.v1">DOI</a> <a href='/assets/research/medical-digital-twins-sound-abduction.pdf'>Public PDF</a></p><h2>Abstract</h2><p>Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persuasive, yet abductively unsound clinical explanations. In this context, abductive soundness means that an explanation preserves mechanistic plausibility, temporal coherence, explicit handling of missing premises, and sensitivity to counter-evidence. This article reframes the problem as architectural rather than as a mere deficit in training data. We identify three recurrent modes of abductive failure — missing-premise neglect, weak-mechanism support, and counter-evidence discounting. They arise when local semantics, formal world ontology, and the role-specific clinical semiosphere are collapsed into a single surface flow of generation. We propose a governed abductive architecture organised around seven runtime contours and operationalise it in the MS-AGIP platform for multiple sclerosis care. The architecture separates three subsystems: an ontology-guided Research Framework, a clinician-facing Neurologist Digital Twin, and a patient-controlled Patient Digital Twin. We show how disease-specific causal templates, evidence-tiered biomarker reasoning, provenance labels, temporal-coherence checks, molecular-clinical discordance detection, and governed patient-feedback updates jointly transform plausible narrative into sound abduction. The article presents an architectural blueprint and validation protocol aligned with TRIPOD+AI and DECIDE-AI. The architectural-versus-scale distinction has direct implications for safe medical AI: the difference between a fluent and a sound clinical system lies more in architecture and governance than in model size. None of the subsystems has yet been clinically deployed.</p><h2>Keywords</h2><p>patient digital twins, abductive reasoning, governed abductive architecture, clinical decision support, multiple sclerosis</p><h2>Versions</h2><ul><li>2026-05-12: <a href='https://doi.org/10.20944/preprints202605.0728.v1'>From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care</a> (v1)</li></ul><h2>Research assets</h2><ul></ul><p><a href="cite.bib">BibTeX</a> · <a href="cite.ris">RIS</a></p></main><footer>Evidence-backed research library · Emanuel Shirbint</footer></body></html>
+<!doctype html><html lang="en" dir="ltr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care — Emanuel Shirbint Research Review</title>
+<meta name="description" content="Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persuasive, yet abductively…">
+<meta name="author" content="Emanuel Shirbint">
+<link rel="canonical" href="https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care — Emanuel Shirbint Research Review">
+<meta property="og:description" content="Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persuasive, yet abductively…">
+<meta property="og:url" content="https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/">
+<meta property="og:site_name" content="Emanuel Shirbint Research Review">
+<link rel="alternate" type="application/rss+xml" title="Emanuel Shirbint Research Review — feed" href="/feed.xml">
+<link rel="stylesheet" href="/styles.css">
+<meta name="citation_title" content="From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care">
+<meta name="citation_author" content="Emanuel Shirbint">
+<meta name="citation_author" content="Alexander Rybalov">
+<meta name="citation_publication_date" content="2026-05-12">
+<meta name="citation_doi" content="10.20944/preprints202605.0728.v1">
+<meta name="citation_journal_title" content="Preprints.org">
+<meta name="citation_pdf_url" content="https://emanuelshirbint.github.io/assets/research/medical-digital-twins-sound-abduction.pdf">
+<meta name="citation_keywords" content="patient digital twins; abductive reasoning; governed abductive architecture; clinical decision support; multiple sclerosis">
+<meta name="citation_public_url" content="https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care", "name": "From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care", "author": [{"@type": "Person", "name": "Emanuel Shirbint", "identifier": "https://orcid.org/0009-0004-8538-7140"}, {"@type": "Person", "name": "Alexander Rybalov", "identifier": "https://orcid.org/0009-0001-8259-6156"}], "datePublished": "2026-05-12", "inLanguage": "en", "abstract": "Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persuasive, yet abductively unsound clinical explanations. In this context, abductive soundness means that an explanation preserves mechanistic plausibility, temporal coherence, explicit handling of missing premises, and sensitivity to counter-evidence. This article reframes the problem as architectural rather than as a mere deficit in training data. We identify three recurrent modes of abductive failure — missing-premise neglect, weak-mechanism support, and counter-evidence discounting. They arise when local semantics, formal world ontology, and the role-specific clinical semiosphere are collapsed into a single surface flow of generation. We propose a governed abductive architecture organised around seven runtime contours and operationalise it in the MS-AGIP platform for multiple sclerosis care. The architecture separates three subsystems: an ontology-guided Research Framework, a clinician-facing Neurologist Digital Twin, and a patient-controlled Patient Digital Twin. We show how disease-specific causal templates, evidence-tiered biomarker reasoning, provenance labels, temporal-coherence checks, molecular-clinical discordance detection, and governed patient-feedback updates jointly transform plausible narrative into sound abduction. The article presents an architectural blueprint and validation protocol aligned with TRIPOD+AI and DECIDE-AI. The architectural-versus-scale distinction has direct implications for safe medical AI: the difference between a fluent and a sound clinical system lies more in architecture and governance than in model size. None of the subsystems has yet been clinically deployed.", "keywords": "patient digital twins, abductive reasoning, governed abductive architecture, clinical decision support, multiple sclerosis", "identifier": "https://doi.org/10.20944/preprints202605.0728.v1", "sameAs": ["https://doi.org/10.20944/preprints202605.0728.v1"], "url": "https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/", "isPartOf": {"@type": "Periodical", "name": "Preprints.org"}, "publisher": {"@type": "Organization", "name": "Preprints.org"}, "creativeWorkStatus": "Not peer-reviewed", "isAccessibleForFree": true, "encoding": {"@type": "MediaObject", "contentUrl": "https://emanuelshirbint.github.io/assets/research/medical-digital-twins-sound-abduction.pdf", "encodingFormat": "application/pdf"}}</script></head><body><header class="masthead"><div class="masthead-inner">
+<div><p class="masthead-title"><a href="/">Emanuel Shirbint Research Review</a></p>
+<p class="masthead-sub">Independent Research Archive · Data, Artificial Intelligence, Clinical Systems and Institutional Governance</p></div>
+<div class="masthead-meta">Independent Research Archive<br>Established online · 2026<br><a href="https://orcid.org/0009-0004-8538-7140">ORCID 0009-0004-8538-7140</a></div>
+</div></header>
+<nav class="nav" aria-label="Primary"><div class="nav-inner">
+<button class="nav-toggle" aria-expanded="false" aria-controls="navlinks" onclick="var n=document.getElementById('navlinks');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ▾</button>
+<div class="nav-links" id="navlinks"><a href="/">Home</a><a href="/research/" class="primary">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a></div>
+</div></nav><main><div class="page">
+<article class="article">
+<p class="article-cat">Preprint · Conceptual Framework</p>
+<h1 class="title">From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care</h1>
+<p class="byline">Emanuel Shirbint <sup><a href="https://orcid.org/0009-0004-8538-7140" title="ORCID 0009-0004-8538-7140">iD</a></sup>, Alexander Rybalov <sup><a href="https://orcid.org/0009-0001-8259-6156" title="ORCID 0009-0001-8259-6156">iD</a></sup></p>
+<p class="affil">Independent Researcher, Israel; LAMBDA — Laboratory for AI, Machine Learning, Business &amp; Data Analytics, Tel Aviv University</p>
+
+<div class="artmeta">
+<div><span class="k">Authors</span><span class="v">Emanuel Shirbint, Alexander Rybalov</span></div>
+<div><span class="k">Emanuel Shirbint — author position</span><span class="v">1 of 2</span></div>
+<div><span class="k">ORCID (E. Shirbint)</span><span class="v"><a href="https://orcid.org/0009-0004-8538-7140">0009-0004-8538-7140</a></span></div>
+<div><span class="k">Publication date</span><span class="v">12 May 2026</span></div>
+<div><span class="k">Status</span><span class="v">Not peer-reviewed</span></div>
+<div><span class="k">DOI</span><span class="v"><a href="https://doi.org/10.20944/preprints202605.0728.v1">10.20944/preprints202605.0728.v1</a></span></div>
+<div><span class="k">Official source</span><span class="v"><a href="https://www.preprints.org/manuscript/202605.0728">Preprints.org</a></span></div>
+<div><span class="k">Full text (PDF)</span><span class="v"><a href="/assets/research/medical-digital-twins-sound-abduction.pdf">Archived PDF</a></span></div>
+</div>
+
+<div class="actions"><a class="btn" href="/assets/research/medical-digital-twins-sound-abduction.pdf">PDF (full text)</a><a class="btn" href="https://doi.org/10.20944/preprints202605.0728.v1">Official record (DOI)</a><a class="btn btn-ghost" href="#cite">Cite</a><a class="btn btn-ghost" href="/assets/presentations/medical-digital-twins-sound-abduction-presentation.pdf">Presentation</a><a class="btn btn-ghost" href="cite.bib">BibTeX</a><a class="btn btn-ghost" href="cite.ris">RIS</a></div>
+
+<div class="abstract-box">
+<h2>Abstract</h2>
+<p>Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persuasive, yet abductively unsound clinical explanations. In this context, abductive soundness means that an explanation preserves mechanistic plausibility, temporal coherence, explicit handling of missing premises, and sensitivity to counter-evidence. This article reframes the problem as architectural rather than as a mere deficit in training data. We identify three recurrent modes of abductive failure — missing-premise neglect, weak-mechanism support, and counter-evidence discounting. They arise when local semantics, formal world ontology, and the role-specific clinical semiosphere are collapsed into a single surface flow of generation. We propose a governed abductive architecture organised around seven runtime contours and operationalise it in the MS-AGIP platform for multiple sclerosis care. The architecture separates three subsystems: an ontology-guided Research Framework, a clinician-facing Neurologist Digital Twin, and a patient-controlled Patient Digital Twin. We show how disease-specific causal templates, evidence-tiered biomarker reasoning, provenance labels, temporal-coherence checks, molecular-clinical discordance detection, and governed patient-feedback updates jointly transform plausible narrative into sound abduction. The article presents an architectural blueprint and validation protocol aligned with TRIPOD+AI and DECIDE-AI. The architectural-versus-scale distinction has direct implications for safe medical AI: the difference between a fluent and a sound clinical system lies more in architecture and governance than in model size. None of the subsystems has yet been clinically deployed.</p>
+<p class="keywords"><span class="k">Keywords</span> — patient digital twins, abductive reasoning, governed abductive architecture, clinical decision support, multiple sclerosis</p>
+</div>
+
+<div class="article-body">
+<h2 class="num"><span class="n">1.</span>Research problem</h2>
+<p>LLMs embedded in medical Patient Digital Twins can generate fluent, narratively persuasive, yet abductively unsound clinical explanations.</p>
+
+<h2 class="num"><span class="n">2.</span>Contribution</h2>
+<ul><li>Reframes abductive failure as architectural rather than a training-data deficit.</li><li>Identifies three recurrent modes: missing-premise neglect, weak-mechanism support, counter-evidence discounting.</li><li>Proposes a governed abductive architecture of seven runtime contours, operationalised as the MS-AGIP platform.</li></ul>
+
+<h2 class="num"><span class="n">3.</span>Architecture, methodology &amp; evidence status</h2>
+<div class="callout"><span class="k">Evidence &amp; status</span>This is a preprint hosted on Preprints.org and has <strong>not undergone peer review</strong>. It is an independent research contribution; its claims and any reported experiments should be read as such.</div>
+<p class="small">The abstract above is the authoritative summary of the work as posted at the official source. This archival record does not add results, figures or claims beyond those in the published/​posted manuscript. For the complete methodology, results and references, consult the official record or the archived PDF.</p>
+
+<h2 class="num"><span class="n">4.</span>Related research</h2><p>Part of the series <a href="/series/governed-medical-digital-twins/">Governed Medical Digital Twins / MS-AGIP</a>. See the <a href="/research/">complete archive</a> for related work.</p>
+
+
+<h2 class="num"><span class="n">5.</span>How to cite</h2>
+<p>Choose a format below. BibTeX and RIS files are also downloadable directly.</p>
+<div class="cite-panel" id="cite">
+<div class="cite-tabs" role="tablist">
+<button class="active" data-tab="apa">APA</button>
+<button data-tab="chicago">Chicago</button>
+<button data-tab="bibtex">BibTeX</button>
+<button data-tab="ris">RIS</button></div>
+<div class="cite-body">
+<div class="cite-pane prose active" data-tab="apa" data-fmt="APA"><p>Shirbint, E., &amp; Rybalov, A. (2026). From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care. Preprints.org. https://doi.org/10.20944/preprints202605.0728.v1</p><button class="copy-btn">Copy</button></div>
+<div class="cite-pane prose" data-tab="chicago" data-fmt="Chicago"><p>Emanuel Shirbint, and Alexander Rybalov. 2026. “From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care.” Preprints.org. https://doi.org/10.20944/preprints202605.0728.v1.</p><button class="copy-btn">Copy</button></div>
+<div class="cite-pane" data-tab="bibtex" data-fmt="BibTeX"><pre>@misc{shirbint2026medicaldigitaltwinssoundabduction,
+  title = {From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care},
+  author = {Emanuel Shirbint and Alexander Rybalov},
+  year = {2026},
+  doi = {10.20944/preprints202605.0728.v1},
+  url = {https://www.preprints.org/manuscript/202605.0728},
+  note = {Not peer-reviewed}
+}</pre><button class="copy-btn">Copy</button></div>
+<div class="cite-pane" data-tab="ris" data-fmt="RIS"><pre>TY  - PREPRINT
+AU  - Emanuel Shirbint
+AU  - Alexander Rybalov
+TI  - From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care
+PY  - 2026
+DO  - 10.20944/preprints202605.0728.v1
+UR  - https://www.preprints.org/manuscript/202605.0728
+N1  - Not peer-reviewed
+ER  -</pre><button class="copy-btn">Copy</button></div>
+</div></div>
+
+<p class="small" style="margin-top:1.4rem"><a href="/research/">← Return to the complete research archive</a></p>
+</div>
+</article>
+</div></main>
+<script>
+document.querySelectorAll('.cite-tabs button').forEach(function(b){
+ b.addEventListener('click',function(){
+  var t=b.getAttribute('data-tab');
+  b.parentNode.querySelectorAll('button').forEach(function(x){x.classList.toggle('active',x===b)});
+  document.querySelectorAll('.cite-pane').forEach(function(p){p.classList.toggle('active',p.getAttribute('data-tab')===t)});
+ });
+});
+document.querySelectorAll('.copy-btn').forEach(function(btn){
+ btn.addEventListener('click',function(){
+  var pane=btn.closest('.cite-pane'),el=pane.querySelector('pre,p'),txt=el?el.textContent:'';
+  navigator.clipboard&&navigator.clipboard.writeText(txt).then(function(){var o=btn.textContent;btn.textContent='Copied';setTimeout(function(){btn.textContent=o},1400)});
+ });
+});
+</script><footer class="site-footer"><div class="footer-inner">
+<div>
+<h4>Emanuel Shirbint Research Review</h4>
+<p class="footer-name">Emanuel Shirbint · עמנואל שירבינט · Эмануэль Ширбинт</p>
+<p>Independent scholarly research archive and author publication platform. This archive is an independent author publication platform. It is not a peer-reviewed journal, an academic publisher, an institution, or an ISSN-registered publication. Publication and peer-review status is stated on every record.</p>
+<p><a href="https://orcid.org/0009-0004-8538-7140">ORCID 0009-0004-8538-7140</a> · <a href="https://il.linkedin.com/in/emanuel-shirbint-b89030a">LinkedIn</a> · <a href="https://www.researchgate.net/profile/Emanuel-Shirbint">ResearchGate</a></p>
+</div>
+<div><h4>Sections</h4><a href="/">Home</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a><a href="/research-areas/">Research Areas</a><a href="/media/">Media</a></div>
+<div><h4>Research Areas</h4><a href="/governed-agent-systems/">Governed Agent Systems</a><a href="/llm-safety-evaluation/">LLM Safety and Evaluation</a><a href="/human-medical-digital-twins/">Human and Medical Digital Twins</a><a href="/ai-ethics-governance/">AI Ethics and Institutional Governance</a><a href="/clinical-ai/">Clinical AI</a><a href="/data-ai-architecture/">BI/DWH and Data Architecture</a></div>
+<div class="footer-note">© 2026 Emanuel Shirbint. Records are deduplicated by DOI and version lineage; each work preserves its publication and peer-review status. Canonical URL: https://emanuelshirbint.github.io · <a href="/sitemap.xml">Sitemap</a> · <a href="/feed.xml">Feed</a> · <a href="/robots.txt">robots.txt</a></div>
+</div></footer></body></html>

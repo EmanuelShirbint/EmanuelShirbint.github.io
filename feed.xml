@@ -1,2 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Emanuel Shirbint — Public Authority</title><link>https://emanuelshirbint.github.io/</link><description>Data &amp; AI architecture, governed agents, clinical AI, and institutional governance.</description></channel></rss>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Emanuel Shirbint Research Review — Research Feed</title>
+  <link>https://emanuelshirbint.github.io/research/</link>
+  <atom:link href="https://emanuelshirbint.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Independent scholarly research archive and author publication platform. Verified research works with publication and peer-review status.</description>
+  <language>en</language>
+  <lastBuildDate>2026-07-29</lastBuildDate>
+  <item>
+    <title>When Local Truth Produces Global Falsehood: Moral Grounding, Institutional Volition, and Systemic Error in Artificial Intelligence</title>
+    <link>https://emanuelshirbint.github.io/research/works/institutional-volition-systemic-error/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/institutional-volition-systemic-error/</guid>
+    <dc:creator>Emanuel Shirbint</dc:creator>
+    <category>Not peer-reviewed</category>
+    <pubDate>2026-07-15</pubDate>
+    <description>Evaluation of artificial intelligence concentrates on local performance — accuracy, calibration, robustness — while the upstream normative and volitional architecture that fixes what a system is for remains largely unexamined by those metrics. Existing scholarship has established that bias, proxy variables, problem formulation, measurement, alignment, and governance are value-laden; what remains i</description>
+  </item>
+  <item>
+    <title>Measuring What Survives: Pressure-Filtered Persistence and a Masking Index for LLM-Agent Safety Evaluation</title>
+    <link>https://emanuelshirbint.github.io/research/works/measuring-what-survives/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/measuring-what-survives/</guid>
+    <dc:creator>Emanuel Shirbint, Alexander Rybalov</dc:creator>
+    <category>Not peer-reviewed</category>
+    <pubDate>2026-06-16</pubDate>
+    <description>When a safety intervention lowers an agent’s attack-success rate, two different things may have happened: the intervention removed a load-bearing failure route, or the agent learned the measured attacks while the route survived. Frequency metrics are necessary, but they do not by themselves identify which behavioural structures persist as adversarial pressure rises. We propose a measurement framew</description>
+  </item>
+  <item>
+    <title>A Topological Robustness and Anti-Fragility Framework for LLM Agents</title>
+    <link>https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/</guid>
+    <dc:creator>Emanuel Shirbint, Alexander Rybalov</dc:creator>
+    <category>Not peer-reviewed</category>
+    <pubDate>2026-06-09</pubDate>
+    <description>Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violation rate, refusal-failure rate, pass percentage, or robustness score. These measures are necessary, but they do not show whether a safety intervention removed a load-bearing failure mode or merely suppressed the measured cases. This paper presents a model-agnostic framework</description>
+  </item>
+  <item>
+    <title>Human Digital Twins and Self-Knowledge: A Governed Attractor Architecture for Sound Self-Abduction</title>
+    <link>https://emanuelshirbint.github.io/research/works/human-digital-twins-self-knowledge/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/human-digital-twins-self-knowledge/</guid>
+    <dc:creator>Emanuel Shirbint, Alexander Rybalov</dc:creator>
+    <category>Not peer-reviewed</category>
+    <pubDate>2026-06-02</pubDate>
+    <description>Large language models embedded in person-modelling systems, and human beings reflecting on themselves, share a structural vulnerability: both can generate fluent, narratively persuasive, yet abductively unsound accounts of a person. Building on a governed abductive architecture developed for medical patient digital twins, this paper argues that personality should be modelled neither as a stable se</description>
+  </item>
+  <item>
+    <title>From Plausible Narrative to Sound Abduction: A Governed Abductive Architecture for Medical Digital Twins in Multiple Sclerosis Care</title>
+    <link>https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/medical-digital-twins-sound-abduction/</guid>
+    <dc:creator>Emanuel Shirbint, Alexander Rybalov</dc:creator>
+    <category>Not peer-reviewed</category>
+    <pubDate>2026-05-12</pubDate>
+    <description>Large language models (LLMs) embedded in medical Patient Digital Twins (PDTs) exhibit a systemic vulnerability: they can generate fluent, narratively persuasive, yet abductively unsound clinical explanations. In this context, abductive soundness means that an explanation preserves mechanistic plausibility, temporal coherence, explicit handling of missing premises, and sensitivity to counter-eviden</description>
+  </item>
+  <item>
+    <title>TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI</title>
+    <link>https://emanuelshirbint.github.io/research/works/totalspineseg/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/totalspineseg/</guid>
+    <dc:creator>Yehuda Warszawer, Nathan Molinier, Jan Valošek, Pierre-Louis Benveniste, Sandrine Bédard, Emanuel Shirbint, Feroze B. Mohamed, Charidimos Tsagkas, Shannon Kolind, Larry Lynd, Jiwon Oh, Alexandre Prat, Roger Tam, Anthony Traboulsee, Scott Patten, Lisa Eunyoung Lee, Anat Achiron, Julien Cohen-Adad</dc:creator>
+    <category>Preprint; associated conference work is not a journal peer-review record</category>
+    <pubDate>2025-03-16</pubDate>
+    <description>Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net models and landmark-guided iterative labeling to segment vertebrae, intervertebral discs, spinal cord, and spinal canal across MRI contrasts.</description>
+  </item>
+  <item>
+    <title>Development of an interactive biosensing application for assessing finger dexterity</title>
+    <link>https://emanuelshirbint.github.io/research/works/finger-dexterity-biosensing/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/finger-dexterity-biosensing/</guid>
+    <dc:creator>Michal Greenberg Abrahami, Yehuda Warszawer, Alon Kalron, Emanuel Shirbint, Maria Didikin, Anat Achiron</dc:creator>
+    <category>Peer-reviewed journal article</category>
+    <pubDate>2025-01-01</pubDate>
+    <description>Objective Accurate finger function assessment is crucial for monitoring the performance of daily hand activities. However, specialized digital applications are lacking for evaluating various finger tasks. This study aims to develop a custom digital biosensing application to assess finger dexterity. Methods We developed a digital biosensing application compatible with smartphones and tablets that e</description>
+  </item>
+  <item>
+    <title>Mapping brain volume change across time in primary-progressive multiple sclerosis</title>
+    <link>https://emanuelshirbint.github.io/research/works/ppms-brain-volume/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/ppms-brain-volume/</guid>
+    <dc:creator>Yehuda Warszawer, Michael Gurevich, Ariel Kerpel, Sapir Dreyer Alster, Yael Nissan, Emanuel Shirbint, Chen Hoffmann, Anat Achiron</dc:creator>
+    <category>Peer-reviewed journal article</category>
+    <pubDate>2024-04-13</pubDate>
+    <description>Purpose Detection and prediction of the rate of brain volume loss with age is a significant unmet need in patients with primary progressive multiple sclerosis (PPMS). In this study we construct detailed brain volume maps for PPMS patients. These maps compare age-related changes in both cortical and sub-cortical regions with those in healthy individuals. Methods We conducted retrospective analyses </description>
+  </item>
+  <item>
+    <title>COVID-19 vaccination in patients with multiple sclerosis: Safety and humoral efficacy of the third booster dose</title>
+    <link>https://emanuelshirbint.github.io/research/works/ms-third-booster/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/ms-third-booster/</guid>
+    <dc:creator>Sapir Dreyer-Alster, Shay Menascu, Mathilda Mandel, Emanuel Shirbint, David Magalashvili, Mark Dolev, Shlomo Flechter, Uri Givon, Diana Guber, Yael Stern, Shmuel Miron, Michael Polliack, Rina Falb, Polina Sonis, Michael Gurevich, Anat Achiron</dc:creator>
+    <category>Peer-reviewed journal article</category>
+    <pubDate>2022-03-01</pubDate>
+    <description>Background As immunity against SARS-COV-2 wanes following first and second doses of vaccination, a third dose is administered in several countries around the world. Similarly to the first doses, risks related to vaccination and humoral immune response in patients with multiple sclerosis (MS) need to be assessed. Objective Characterize safety and humoral immune response following the third dose of </description>
+  </item>
+  <item>
+    <title>COVID-19 vaccination in patients with multiple sclerosis: What we have learnt by February 2021</title>
+    <link>https://emanuelshirbint.github.io/research/works/ms-vaccination-february-2021/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/ms-vaccination-february-2021/</guid>
+    <dc:creator>Anat Achiron, Mark Dolev, Shay Menascu, Daniela-Noa Zohar, Sapir Dreyer-Alster, Shmuel Miron, Emanuel Shirbint, David Magalashvili, Shlomo Flechter, Uri Givon, Diana Guber, Yael Stern, Michael Polliack, Rina Falb, Michael Gurevich</dc:creator>
+    <category>Peer-reviewed journal article</category>
+    <pubDate>2021-04-15</pubDate>
+    <description>Background Since vaccination against coronavirus disease 2019 (COVID-19) became available, risks related to vaccinating patients with multiple sclerosis (MS) need to be carefully assessed. Objective Characterize safety and occurrence of immediate relapses following COVID-19 vaccination in a large cohort of MS patients. Methods We assessed the safety of BNT162b2 COVID-19 vaccination in adult MS pat</description>
+  </item>
+</channel>
+</rss>

@@ -1,1 +1,129 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A Topological Robustness and Anti-Fragility Framework for LLM Agents — Emanuel Shirbint</title><meta name="description" content="&lt;title&gt;Abstract&lt;/title&gt; &lt;p&gt;Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violatio"><meta name="author" content="Emanuel Shirbint"><link rel="canonical" href="https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/"><meta property="og:type" content="article"><meta property="og:title" content="A Topological Robustness and Anti-Fragility Framework for LLM Agents"><meta property="og:url" content="https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/"><meta name="citation_title" content="A Topological Robustness and Anti-Fragility Framework for LLM Agents"><meta name='citation_author' content='Emanuel Shirbint'><meta name='citation_author' content='Alexander Rybalov'><meta name="citation_publication_date" content="2026-06-09"><meta name="citation_doi" content="10.21203/rs.3.rs-9932131/v1"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"A Topological Robustness and Anti-Fragility Framework for LLM Agents","author":[{"@type":"Person","name":"Emanuel Shirbint"},{"@type":"Person","name":"Alexander Rybalov"}],"datePublished":"2026-06-09","abstract":"<title>Abstract</title>  <p>Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violation rate, refusal-failure rate, pass percentage, or robustness score. These measures are necessary, but they do not show whether a safety intervention removed a load-bearing failure mode or merely suppressed the measured cases. This paper presents a model-agnostic framework for training and evaluating LLM agents using pressure-indexed persistent homology. The framework is intentionally reduced to two core constructs: topological robustness, meaning stable policy-compliant structure under increasing adversarial pressure, and topological anti-fragility, meaning before/after structural improvement after controlled adversarial hardening. Agent conduct is represented as a finite metric space of responses, decisions, and tool-call trajectories annotated by engineered pressure. Filtering this space by pressure yields summaries that distinguish a pressure-persistent safe core from recurrent unsafe structures. We also introduce a held-out release gate to reduce Goodhart-style overfitting to the development attack suite. To make the proposal empirically testable, we report a reproducible instrumented pilot with 1,440 generated agent traces. The pilot is not an external validation over production LLMs; it is a controlled proof of concept with known ground truth. The contribution is a structural complement to red-teaming: a way to ask whether an agent was actually hardened under adversarial load or merely adapted to the measured attacks.</p>","keywords":"LLM agents, AI safety, adversarial robustness, topological data analysis, persistent homology, red-teaming","identifier":"https://doi.org/10.21203/rs.3.rs-9932131/v1","url":"https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/","sameAs":["https://doi.org/10.21203/rs.3.rs-9932131/v1"],"isAccessibleForFree":true}</script></head><body><header><nav><a href="/">Emanuel Shirbint</a><a href="/who-is-emanuel-shirbint/">Who</a><a href="/research/">Research</a><a href="/data-ai-architecture/">Data & AI</a><a href="/governed-agent-systems/">Governed agents</a><a href="/llm-safety-evaluation/">LLM safety</a><a href="/clinical-ai/">Clinical AI</a><a href="/publications/">Publications</a><a href="/projects/">Projects</a><a href="/contact/">Contact</a></nav></header><main><section class="hero"><p class="eyebrow">PREPRINT &#183; EMPIRICAL_STUDY &#183; SYNTHETIC_PILOT</p><h1>A Topological Robustness and Anti-Fragility Framework for LLM Agents</h1><p class="dek">Emanuel Shirbint, Alexander Rybalov</p></section><p><strong>Status:</strong> Not peer-reviewed · PUBLIC_PREPRINT_V1</p><p><strong>Emanuel Shirbint author position:</strong> 1 of 2</p><p><strong>Affiliations:</strong> Independent Researcher, Israel; LAMBDA - Laboratory for AI, Machine Learning, Business &amp; Data Analytics, Tel Aviv University</p><p><strong>Published / posted:</strong> 2026-06-09 · <a href="https://doi.org/10.21203/rs.3.rs-9932131/v1">Official record</a> · <a href="https://doi.org/10.21203/rs.3.rs-9932131/v1">DOI</a> <a href='/assets/research/topological-robustness-llm-agents.pdf'>Public PDF</a></p><h2>Abstract</h2><p>&lt;title&gt;Abstract&lt;/title&gt;  &lt;p&gt;Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violation rate, refusal-failure rate, pass percentage, or robustness score. These measures are necessary, but they do not show whether a safety intervention removed a load-bearing failure mode or merely suppressed the measured cases. This paper presents a model-agnostic framework for training and evaluating LLM agents using pressure-indexed persistent homology. The framework is intentionally reduced to two core constructs: topological robustness, meaning stable policy-compliant structure under increasing adversarial pressure, and topological anti-fragility, meaning before/after structural improvement after controlled adversarial hardening. Agent conduct is represented as a finite metric space of responses, decisions, and tool-call trajectories annotated by engineered pressure. Filtering this space by pressure yields summaries that distinguish a pressure-persistent safe core from recurrent unsafe structures. We also introduce a held-out release gate to reduce Goodhart-style overfitting to the development attack suite. To make the proposal empirically testable, we report a reproducible instrumented pilot with 1,440 generated agent traces. The pilot is not an external validation over production LLMs; it is a controlled proof of concept with known ground truth. The contribution is a structural complement to red-teaming: a way to ask whether an agent was actually hardened under adversarial load or merely adapted to the measured attacks.&lt;/p&gt;</p><h2>Keywords</h2><p>LLM agents, AI safety, adversarial robustness, topological data analysis, persistent homology, red-teaming</p><h2>Versions</h2><ul><li>2026-06-09: <a href='https://doi.org/10.21203/rs.3.rs-9932131/v1'>A Topological Robustness and Anti-Fragility Framework for LLM Agents</a> (v1)</li></ul><h2>Research assets</h2><ul></ul><p><a href="cite.bib">BibTeX</a> · <a href="cite.ris">RIS</a></p></main><footer>Evidence-backed research library · Emanuel Shirbint</footer></body></html>
+<!doctype html><html lang="en" dir="ltr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Topological Robustness and Anti-Fragility Framework for LLM Agents — Emanuel Shirbint Research Review</title>
+<meta name="description" content="Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violation rate, refusal-failure rate, pass percentage, or…">
+<meta name="author" content="Emanuel Shirbint">
+<link rel="canonical" href="https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A Topological Robustness and Anti-Fragility Framework for LLM Agents — Emanuel Shirbint Research Review">
+<meta property="og:description" content="Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violation rate, refusal-failure rate, pass percentage, or…">
+<meta property="og:url" content="https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/">
+<meta property="og:site_name" content="Emanuel Shirbint Research Review">
+<link rel="alternate" type="application/rss+xml" title="Emanuel Shirbint Research Review — feed" href="/feed.xml">
+<link rel="stylesheet" href="/styles.css">
+<meta name="citation_title" content="A Topological Robustness and Anti-Fragility Framework for LLM Agents">
+<meta name="citation_author" content="Emanuel Shirbint">
+<meta name="citation_author" content="Alexander Rybalov">
+<meta name="citation_publication_date" content="2026-06-09">
+<meta name="citation_doi" content="10.21203/rs.3.rs-9932131/v1">
+<meta name="citation_journal_title" content="Research Square">
+<meta name="citation_pdf_url" content="https://emanuelshirbint.github.io/assets/research/topological-robustness-llm-agents.pdf">
+<meta name="citation_keywords" content="LLM agents; AI safety; adversarial robustness; topological data analysis; persistent homology; red-teaming">
+<meta name="citation_public_url" content="https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "A Topological Robustness and Anti-Fragility Framework for LLM Agents", "name": "A Topological Robustness and Anti-Fragility Framework for LLM Agents", "author": [{"@type": "Person", "name": "Emanuel Shirbint", "identifier": "https://orcid.org/0009-0004-8538-7140"}, {"@type": "Person", "name": "Alexander Rybalov", "identifier": "https://orcid.org/0009-0001-8259-6156"}], "datePublished": "2026-06-09", "inLanguage": "en", "abstract": "Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violation rate, refusal-failure rate, pass percentage, or robustness score. These measures are necessary, but they do not show whether a safety intervention removed a load-bearing failure mode or merely suppressed the measured cases. This paper presents a model-agnostic framework for training and evaluating LLM agents using pressure-indexed persistent homology. The framework is intentionally reduced to two core constructs: topological robustness, meaning stable policy-compliant structure under increasing adversarial pressure, and topological anti-fragility, meaning before/after structural improvement after controlled adversarial hardening. Agent conduct is represented as a finite metric space of responses, decisions, and tool-call trajectories annotated by engineered pressure. Filtering this space by pressure yields summaries that distinguish a pressure-persistent safe core from recurrent unsafe structures. We also introduce a held-out release gate to reduce Goodhart-style overfitting to the development attack suite. To make the proposal empirically testable, we report a reproducible instrumented pilot with 1,440 generated agent traces. The pilot is not an external validation over production LLMs; it is a controlled proof of concept with known ground truth. The contribution is a structural complement to red-teaming: a way to ask whether an agent was actually hardened under adversarial load or merely adapted to the measured attacks.", "keywords": "LLM agents, AI safety, adversarial robustness, topological data analysis, persistent homology, red-teaming", "identifier": "https://doi.org/10.21203/rs.3.rs-9932131/v1", "sameAs": ["https://doi.org/10.21203/rs.3.rs-9932131/v1"], "url": "https://emanuelshirbint.github.io/research/works/topological-robustness-llm-agents/", "isPartOf": {"@type": "Periodical", "name": "Research Square"}, "publisher": {"@type": "Organization", "name": "Research Square"}, "creativeWorkStatus": "Not peer-reviewed", "isAccessibleForFree": true, "encoding": {"@type": "MediaObject", "contentUrl": "https://emanuelshirbint.github.io/assets/research/topological-robustness-llm-agents.pdf", "encodingFormat": "application/pdf"}}</script></head><body><header class="masthead"><div class="masthead-inner">
+<div><p class="masthead-title"><a href="/">Emanuel Shirbint Research Review</a></p>
+<p class="masthead-sub">Independent Research Archive · Data, Artificial Intelligence, Clinical Systems and Institutional Governance</p></div>
+<div class="masthead-meta">Independent Research Archive<br>Established online · 2026<br><a href="https://orcid.org/0009-0004-8538-7140">ORCID 0009-0004-8538-7140</a></div>
+</div></header>
+<nav class="nav" aria-label="Primary"><div class="nav-inner">
+<button class="nav-toggle" aria-expanded="false" aria-controls="navlinks" onclick="var n=document.getElementById('navlinks');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ▾</button>
+<div class="nav-links" id="navlinks"><a href="/">Home</a><a href="/research/" class="primary">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a></div>
+</div></nav><main><div class="page">
+<article class="article">
+<p class="article-cat">Preprint · Empirical Study · Synthetic Controlled Pilot</p>
+<h1 class="title">A Topological Robustness and Anti-Fragility Framework for LLM Agents</h1>
+<p class="byline">Emanuel Shirbint <sup><a href="https://orcid.org/0009-0004-8538-7140" title="ORCID 0009-0004-8538-7140">iD</a></sup>, Alexander Rybalov <sup><a href="https://orcid.org/0009-0001-8259-6156" title="ORCID 0009-0001-8259-6156">iD</a></sup></p>
+<p class="affil">Independent Researcher, Israel; LAMBDA — Laboratory for AI, Machine Learning, Business &amp; Data Analytics, Tel Aviv University</p>
+
+<div class="artmeta">
+<div><span class="k">Authors</span><span class="v">Emanuel Shirbint, Alexander Rybalov</span></div>
+<div><span class="k">Emanuel Shirbint — author position</span><span class="v">1 of 2</span></div>
+<div><span class="k">ORCID (E. Shirbint)</span><span class="v"><a href="https://orcid.org/0009-0004-8538-7140">0009-0004-8538-7140</a></span></div>
+<div><span class="k">Publication date</span><span class="v">9 June 2026</span></div>
+<div><span class="k">Status</span><span class="v">Not peer-reviewed</span></div>
+<div><span class="k">DOI</span><span class="v"><a href="https://doi.org/10.21203/rs.3.rs-9932131/v1">10.21203/rs.3.rs-9932131/v1</a></span></div>
+<div><span class="k">Official source</span><span class="v"><a href="https://doi.org/10.21203/rs.3.rs-9932131/v1">Research Square</a></span></div>
+<div><span class="k">Full text (PDF)</span><span class="v"><a href="/assets/research/topological-robustness-llm-agents.pdf">Archived PDF</a></span></div>
+</div>
+
+<div class="actions"><a class="btn" href="/assets/research/topological-robustness-llm-agents.pdf">PDF (full text)</a><a class="btn" href="https://doi.org/10.21203/rs.3.rs-9932131/v1">Official record (DOI)</a><a class="btn btn-ghost" href="#cite">Cite</a><a class="btn btn-ghost" href="/assets/presentations/topological-robustness-llm-agents-presentation.pdf">Presentation</a><a class="btn btn-ghost" href="cite.bib">BibTeX</a><a class="btn btn-ghost" href="cite.ris">RIS</a></div>
+
+<div class="abstract-box">
+<h2>Abstract</h2>
+<p>Adversarial evaluation of large-language-model agents is usually expressed as event counts: attack-success rate, policy-violation rate, refusal-failure rate, pass percentage, or robustness score. These measures are necessary, but they do not show whether a safety intervention removed a load-bearing failure mode or merely suppressed the measured cases. This paper presents a model-agnostic framework for training and evaluating LLM agents using pressure-indexed persistent homology. The framework is intentionally reduced to two core constructs: topological robustness, meaning stable policy-compliant structure under increasing adversarial pressure, and topological anti-fragility, meaning before/after structural improvement after controlled adversarial hardening. Agent conduct is represented as a finite metric space of responses, decisions, and tool-call trajectories annotated by engineered pressure. Filtering this space by pressure yields summaries that distinguish a pressure-persistent safe core from recurrent unsafe structures. We also introduce a held-out release gate to reduce Goodhart-style overfitting to the development attack suite. To make the proposal empirically testable, we report a reproducible instrumented pilot with 1,440 generated agent traces. The pilot is not an external validation over production LLMs; it is a controlled proof of concept with known ground truth. The contribution is a structural complement to red-teaming: a way to ask whether an agent was actually hardened under adversarial load or merely adapted to the measured attacks.</p>
+<p class="keywords"><span class="k">Keywords</span> — LLM agents, AI safety, adversarial robustness, topological data analysis, persistent homology, red-teaming</p>
+</div>
+
+<div class="article-body">
+<h2 class="num"><span class="n">1.</span>Research problem</h2>
+<p>Adversarial evaluation of LLM agents is usually expressed as event counts, which do not show whether an intervention removed a load-bearing failure mode or merely suppressed the measured cases.</p>
+
+<h2 class="num"><span class="n">2.</span>Contribution</h2>
+<ul><li>A model-agnostic framework using pressure-indexed persistent homology to train and evaluate LLM agents.</li><li>Two core constructs: topological robustness and topological anti-fragility.</li><li>A held-out release gate to reduce Goodhart-style overfitting to the development attack suite.</li></ul>
+
+<h2 class="num"><span class="n">3.</span>Architecture, methodology &amp; evidence status</h2>
+<div class="callout"><span class="k">Evidence &amp; status</span>This is a preprint hosted on Research Square and has <strong>not undergone peer review</strong>. It is an independent research contribution; its claims and any reported experiments should be read as such. The proposal is made empirically testable through a specified protocol; reported work is a synthetic controlled pilot rather than validation on production agents.</div>
+<p class="small">The abstract above is the authoritative summary of the work as posted at the official source. This archival record does not add results, figures or claims beyond those in the published/​posted manuscript. For the complete methodology, results and references, consult the official record or the archived PDF.</p>
+
+<h2 class="num"><span class="n">4.</span>Related research</h2><p>Part of the series <a href="/series/llm-agent-safety-topological-robustness/">LLM-Agent Safety and Topological Robustness</a>.</p><ul class="related-list"><li><a href="/research/works/measuring-what-survives/">Measuring What Survives: Pressure-Filtered Persistence and a Masking Index for LLM-Agent Safety Evaluation</a><div class="rmeta">2026 · Not peer-reviewed</div></li></ul>
+
+
+<h2 class="num"><span class="n">5.</span>How to cite</h2>
+<p>Choose a format below. BibTeX and RIS files are also downloadable directly.</p>
+<div class="cite-panel" id="cite">
+<div class="cite-tabs" role="tablist">
+<button class="active" data-tab="apa">APA</button>
+<button data-tab="chicago">Chicago</button>
+<button data-tab="bibtex">BibTeX</button>
+<button data-tab="ris">RIS</button></div>
+<div class="cite-body">
+<div class="cite-pane prose active" data-tab="apa" data-fmt="APA"><p>Shirbint, E., &amp; Rybalov, A. (2026). A Topological Robustness and Anti-Fragility Framework for LLM Agents. Research Square. https://doi.org/10.21203/rs.3.rs-9932131/v1</p><button class="copy-btn">Copy</button></div>
+<div class="cite-pane prose" data-tab="chicago" data-fmt="Chicago"><p>Emanuel Shirbint, and Alexander Rybalov. 2026. “A Topological Robustness and Anti-Fragility Framework for LLM Agents.” Research Square. https://doi.org/10.21203/rs.3.rs-9932131/v1.</p><button class="copy-btn">Copy</button></div>
+<div class="cite-pane" data-tab="bibtex" data-fmt="BibTeX"><pre>@misc{shirbint2026topologicalrobustnessllmagents,
+  title = {A Topological Robustness and Anti-Fragility Framework for LLM Agents},
+  author = {Emanuel Shirbint and Alexander Rybalov},
+  year = {2026},
+  doi = {10.21203/rs.3.rs-9932131/v1},
+  url = {https://doi.org/10.21203/rs.3.rs-9932131/v1},
+  note = {Not peer-reviewed}
+}</pre><button class="copy-btn">Copy</button></div>
+<div class="cite-pane" data-tab="ris" data-fmt="RIS"><pre>TY  - PREPRINT
+AU  - Emanuel Shirbint
+AU  - Alexander Rybalov
+TI  - A Topological Robustness and Anti-Fragility Framework for LLM Agents
+PY  - 2026
+DO  - 10.21203/rs.3.rs-9932131/v1
+UR  - https://doi.org/10.21203/rs.3.rs-9932131/v1
+N1  - Not peer-reviewed
+ER  -</pre><button class="copy-btn">Copy</button></div>
+</div></div>
+
+<p class="small" style="margin-top:1.4rem"><a href="/research/">← Return to the complete research archive</a></p>
+</div>
+</article>
+</div></main>
+<script>
+document.querySelectorAll('.cite-tabs button').forEach(function(b){
+ b.addEventListener('click',function(){
+  var t=b.getAttribute('data-tab');
+  b.parentNode.querySelectorAll('button').forEach(function(x){x.classList.toggle('active',x===b)});
+  document.querySelectorAll('.cite-pane').forEach(function(p){p.classList.toggle('active',p.getAttribute('data-tab')===t)});
+ });
+});
+document.querySelectorAll('.copy-btn').forEach(function(btn){
+ btn.addEventListener('click',function(){
+  var pane=btn.closest('.cite-pane'),el=pane.querySelector('pre,p'),txt=el?el.textContent:'';
+  navigator.clipboard&&navigator.clipboard.writeText(txt).then(function(){var o=btn.textContent;btn.textContent='Copied';setTimeout(function(){btn.textContent=o},1400)});
+ });
+});
+</script><footer class="site-footer"><div class="footer-inner">
+<div>
+<h4>Emanuel Shirbint Research Review</h4>
+<p class="footer-name">Emanuel Shirbint · עמנואל שירבינט · Эмануэль Ширбинт</p>
+<p>Independent scholarly research archive and author publication platform. This archive is an independent author publication platform. It is not a peer-reviewed journal, an academic publisher, an institution, or an ISSN-registered publication. Publication and peer-review status is stated on every record.</p>
+<p><a href="https://orcid.org/0009-0004-8538-7140">ORCID 0009-0004-8538-7140</a> · <a href="https://il.linkedin.com/in/emanuel-shirbint-b89030a">LinkedIn</a> · <a href="https://www.researchgate.net/profile/Emanuel-Shirbint">ResearchGate</a></p>
+</div>
+<div><h4>Sections</h4><a href="/">Home</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a><a href="/research-areas/">Research Areas</a><a href="/media/">Media</a></div>
+<div><h4>Research Areas</h4><a href="/governed-agent-systems/">Governed Agent Systems</a><a href="/llm-safety-evaluation/">LLM Safety and Evaluation</a><a href="/human-medical-digital-twins/">Human and Medical Digital Twins</a><a href="/ai-ethics-governance/">AI Ethics and Institutional Governance</a><a href="/clinical-ai/">Clinical AI</a><a href="/data-ai-architecture/">BI/DWH and Data Architecture</a></div>
+<div class="footer-note">© 2026 Emanuel Shirbint. Records are deduplicated by DOI and version lineage; each work preserves its publication and peer-review status. Canonical URL: https://emanuelshirbint.github.io · <a href="/sitemap.xml">Sitemap</a> · <a href="/feed.xml">Feed</a> · <a href="/robots.txt">robots.txt</a></div>
+</div></footer></body></html>

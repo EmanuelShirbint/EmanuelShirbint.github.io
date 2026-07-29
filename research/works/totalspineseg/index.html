@@ -1,1 +1,160 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI — Emanuel Shirbint</title><meta name="description" content="Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net m"><meta name="author" content="Emanuel Shirbint"><link rel="canonical" href="https://emanuelshirbint.github.io/research/works/totalspineseg/"><meta property="og:type" content="article"><meta property="og:title" content="TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI"><meta property="og:url" content="https://emanuelshirbint.github.io/research/works/totalspineseg/"><meta name="citation_title" content="TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI"><meta name='citation_author' content='Yehuda Warszawer'><meta name='citation_author' content='Nathan Molinier'><meta name='citation_author' content='Jan Valosek'><meta name='citation_author' content='Pierre-Louis Benveniste'><meta name='citation_author' content='Sandrine Bedard'><meta name='citation_author' content='Emanuel Shirbint'><meta name='citation_author' content='Feroze B. Mohamed'><meta name='citation_author' content='Charidimos Tsagkas'><meta name='citation_author' content='Shannon Kolind'><meta name='citation_author' content='Larry Lynd'><meta name='citation_author' content='Jiwon Oh'><meta name='citation_author' content='Alexandre Prat'><meta name='citation_author' content='Roger Tam'><meta name='citation_author' content='Anthony Traboulsee'><meta name='citation_author' content='Scott Patten'><meta name='citation_author' content='Lisa Eunyoung Lee'><meta name='citation_author' content='Anat Achiron'><meta name='citation_author' content='Julien Cohen-Adad'><meta name="citation_publication_date" content="2025-03-16"><meta name="citation_doi" content="10.13140/RG.2.2.31318.56649"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI","author":[{"@type":"Person","name":"Yehuda Warszawer"},{"@type":"Person","name":"Nathan Molinier"},{"@type":"Person","name":"Jan Valosek"},{"@type":"Person","name":"Pierre-Louis Benveniste"},{"@type":"Person","name":"Sandrine Bedard"},{"@type":"Person","name":"Emanuel Shirbint"},{"@type":"Person","name":"Feroze B. Mohamed"},{"@type":"Person","name":"Charidimos Tsagkas"},{"@type":"Person","name":"Shannon Kolind"},{"@type":"Person","name":"Larry Lynd"},{"@type":"Person","name":"Jiwon Oh"},{"@type":"Person","name":"Alexandre Prat"},{"@type":"Person","name":"Roger Tam"},{"@type":"Person","name":"Anthony Traboulsee"},{"@type":"Person","name":"Scott Patten"},{"@type":"Person","name":"Lisa Eunyoung Lee"},{"@type":"Person","name":"Anat Achiron"},{"@type":"Person","name":"Julien Cohen-Adad"}],"datePublished":"2025-03-16","abstract":"Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net models and landmark-guided iterative labeling to segment vertebrae, intervertebral discs, spinal cord, and spinal canal across MRI contrasts.","keywords":"MRI, spine, vertebrae, segmentation, labeling, nnU-Net","identifier":"https://doi.org/10.13140/RG.2.2.31318.56649","url":"https://emanuelshirbint.github.io/research/works/totalspineseg/","sameAs":["https://doi.org/10.13140/RG.2.2.31318.56649"],"isAccessibleForFree":true}</script></head><body><header><nav><a href="/">Emanuel Shirbint</a><a href="/who-is-emanuel-shirbint/">Who</a><a href="/research/">Research</a><a href="/data-ai-architecture/">Data & AI</a><a href="/governed-agent-systems/">Governed agents</a><a href="/llm-safety-evaluation/">LLM safety</a><a href="/clinical-ai/">Clinical AI</a><a href="/publications/">Publications</a><a href="/projects/">Projects</a><a href="/contact/">Contact</a></nav></header><main><section class="hero"><p class="eyebrow">PREPRINT &#183; EMPIRICAL_STUDY</p><h1>TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI</h1><p class="dek">Yehuda Warszawer, Nathan Molinier, Jan Valosek, Pierre-Louis Benveniste, Sandrine Bedard, Emanuel Shirbint, Feroze B. Mohamed, Charidimos Tsagkas, Shannon Kolind, Larry Lynd, Jiwon Oh, Alexandre Prat, Roger Tam, Anthony Traboulsee, Scott Patten, Lisa Eunyoung Lee, Anat Achiron, Julien Cohen-Adad</p></section><p><strong>Status:</strong> Preprint; associated conference work is not a journal peer-review record · PUBLIC_PREPRINT_WITH_CONFERENCE_AND_CODE</p><p><strong>Emanuel Shirbint author position:</strong> 6 of 18</p><p><strong>Affiliations:</strong> Multiple Sclerosis Center, Sheba Medical Center, Ramat Gan, Israel</p><p><strong>Published / posted:</strong> 2025-03-16 · <a href="https://doi.org/10.13140/RG.2.2.31318.56649">Official record</a> · <a href="https://doi.org/10.13140/RG.2.2.31318.56649">DOI</a> </p><h2>Abstract</h2><p>Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net models and landmark-guided iterative labeling to segment vertebrae, intervertebral discs, spinal cord, and spinal canal across MRI contrasts.</p><h2>Keywords</h2><p>MRI, spine, vertebrae, segmentation, labeling, nnU-Net</p><h2>Versions</h2><ul><li>2025-03-16: <a href='https://doi.org/10.13140/RG.2.2.31318.56649'>TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI</a> (public preprint)</li><li>2025: <a href='https://doi.org/'>TotalSpineSeg: Robust Spine Segmentation and Labeling Across Multiple MRI Contrasts</a> (conference record)</li></ul><h2>Research assets</h2><ul><li><a href='https://github.com/neuropoly/totalspineseg'>Open-source TotalSpineSeg code</a> <span class='tag'>SUPPLEMENTARY_CODE</span></li><li><a href='https://publications.polymtl.ca/view/person/Shirbint%2C_Emanuel.html'>ISMRM conference record</a> <span class='tag'>PRESENTATION</span></li><li><a href='https://www.researchgate.net/profile/Emanuel-Shirbint/research'>ResearchGate supplementary file record</a> <span class='tag'>SUPPLEMENTARY_CODE</span></li></ul><p><a href="cite.bib">BibTeX</a> · <a href="cite.ris">RIS</a></p></main><footer>Evidence-backed research library · Emanuel Shirbint</footer></body></html>
+<!doctype html><html lang="en" dir="ltr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI — Emanuel Shirbint Research Review</title>
+<meta name="description" content="Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net models and…">
+<meta name="author" content="Emanuel Shirbint">
+<link rel="canonical" href="https://emanuelshirbint.github.io/research/works/totalspineseg/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI — Emanuel Shirbint Research Review">
+<meta property="og:description" content="Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net models and…">
+<meta property="og:url" content="https://emanuelshirbint.github.io/research/works/totalspineseg/">
+<meta property="og:site_name" content="Emanuel Shirbint Research Review">
+<link rel="alternate" type="application/rss+xml" title="Emanuel Shirbint Research Review — feed" href="/feed.xml">
+<link rel="stylesheet" href="/styles.css">
+<meta name="citation_title" content="TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI">
+<meta name="citation_author" content="Yehuda Warszawer">
+<meta name="citation_author" content="Nathan Molinier">
+<meta name="citation_author" content="Jan Valošek">
+<meta name="citation_author" content="Pierre-Louis Benveniste">
+<meta name="citation_author" content="Sandrine Bédard">
+<meta name="citation_author" content="Emanuel Shirbint">
+<meta name="citation_author" content="Feroze B. Mohamed">
+<meta name="citation_author" content="Charidimos Tsagkas">
+<meta name="citation_author" content="Shannon Kolind">
+<meta name="citation_author" content="Larry Lynd">
+<meta name="citation_author" content="Jiwon Oh">
+<meta name="citation_author" content="Alexandre Prat">
+<meta name="citation_author" content="Roger Tam">
+<meta name="citation_author" content="Anthony Traboulsee">
+<meta name="citation_author" content="Scott Patten">
+<meta name="citation_author" content="Lisa Eunyoung Lee">
+<meta name="citation_author" content="Anat Achiron">
+<meta name="citation_author" content="Julien Cohen-Adad">
+<meta name="citation_publication_date" content="2025-03-16">
+<meta name="citation_doi" content="10.13140/RG.2.2.31318.56649">
+<meta name="citation_journal_title" content="ResearchGate">
+<meta name="citation_keywords" content="MRI; spine; vertebrae; segmentation; labeling; nnU-Net">
+<meta name="citation_public_url" content="https://emanuelshirbint.github.io/research/works/totalspineseg/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI", "name": "TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI", "author": [{"@type": "Person", "name": "Yehuda Warszawer"}, {"@type": "Person", "name": "Nathan Molinier"}, {"@type": "Person", "name": "Jan Valošek"}, {"@type": "Person", "name": "Pierre-Louis Benveniste"}, {"@type": "Person", "name": "Sandrine Bédard"}, {"@type": "Person", "name": "Emanuel Shirbint", "identifier": "https://orcid.org/0009-0004-8538-7140"}, {"@type": "Person", "name": "Feroze B. Mohamed"}, {"@type": "Person", "name": "Charidimos Tsagkas"}, {"@type": "Person", "name": "Shannon Kolind"}, {"@type": "Person", "name": "Larry Lynd"}, {"@type": "Person", "name": "Jiwon Oh"}, {"@type": "Person", "name": "Alexandre Prat"}, {"@type": "Person", "name": "Roger Tam"}, {"@type": "Person", "name": "Anthony Traboulsee"}, {"@type": "Person", "name": "Scott Patten"}, {"@type": "Person", "name": "Lisa Eunyoung Lee"}, {"@type": "Person", "name": "Anat Achiron"}, {"@type": "Person", "name": "Julien Cohen-Adad"}], "datePublished": "2025-03-16", "inLanguage": "en", "abstract": "Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net models and landmark-guided iterative labeling to segment vertebrae, intervertebral discs, spinal cord, and spinal canal across MRI contrasts.", "keywords": "MRI, spine, vertebrae, segmentation, labeling, nnU-Net", "identifier": "https://doi.org/10.13140/RG.2.2.31318.56649", "sameAs": ["https://doi.org/10.13140/RG.2.2.31318.56649"], "url": "https://emanuelshirbint.github.io/research/works/totalspineseg/", "isPartOf": {"@type": "Periodical", "name": "ResearchGate (preprint) · associated conference material"}, "publisher": {"@type": "Organization", "name": "ResearchGate (preprint) · associated conference material"}, "creativeWorkStatus": "Preprint; associated conference work is not a journal peer-review record", "isAccessibleForFree": true}</script></head><body><header class="masthead"><div class="masthead-inner">
+<div><p class="masthead-title"><a href="/">Emanuel Shirbint Research Review</a></p>
+<p class="masthead-sub">Independent Research Archive · Data, Artificial Intelligence, Clinical Systems and Institutional Governance</p></div>
+<div class="masthead-meta">Independent Research Archive<br>Established online · 2026<br><a href="https://orcid.org/0009-0004-8538-7140">ORCID 0009-0004-8538-7140</a></div>
+</div></header>
+<nav class="nav" aria-label="Primary"><div class="nav-inner">
+<button class="nav-toggle" aria-expanded="false" aria-controls="navlinks" onclick="var n=document.getElementById('navlinks');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ▾</button>
+<div class="nav-links" id="navlinks"><a href="/">Home</a><a href="/research/" class="primary">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a></div>
+</div></nav><main><div class="page">
+<article class="article">
+<p class="article-cat">Preprint · Empirical Study</p>
+<h1 class="title">TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI</h1>
+<p class="byline">Yehuda Warszawer, Nathan Molinier, Jan Valošek, Pierre-Louis Benveniste, Sandrine Bédard, Emanuel Shirbint <sup><a href="https://orcid.org/0009-0004-8538-7140" title="ORCID 0009-0004-8538-7140">iD</a></sup>, Feroze B. Mohamed, Charidimos Tsagkas, Shannon Kolind, Larry Lynd, Jiwon Oh, Alexandre Prat, Roger Tam, Anthony Traboulsee, Scott Patten, Lisa Eunyoung Lee, Anat Achiron, Julien Cohen-Adad</p>
+<p class="affil">Multiple Sclerosis Center, Sheba Medical Center, Ramat Gan, Israel (co-author); international collaboration</p>
+
+<div class="artmeta">
+<div><span class="k">Authors</span><span class="v">Yehuda Warszawer, Nathan Molinier, Jan Valošek, Pierre-Louis Benveniste, Sandrine Bédard, Emanuel Shirbint, Feroze B. Mohamed, Charidimos Tsagkas, Shannon Kolind, Larry Lynd, Jiwon Oh, Alexandre Prat, Roger Tam, Anthony Traboulsee, Scott Patten, Lisa Eunyoung Lee, Anat Achiron, Julien Cohen-Adad</span></div>
+<div><span class="k">Emanuel Shirbint — author position</span><span class="v">6 of 18</span></div>
+<div><span class="k">ORCID (E. Shirbint)</span><span class="v"><a href="https://orcid.org/0009-0004-8538-7140">0009-0004-8538-7140</a></span></div>
+<div><span class="k">Publication date</span><span class="v">16 March 2025</span></div>
+<div><span class="k">Status</span><span class="v">Preprint; associated conference work is not a journal peer-review record</span></div>
+<div><span class="k">DOI</span><span class="v"><a href="https://doi.org/10.13140/RG.2.2.31318.56649">10.13140/RG.2.2.31318.56649</a></span></div>
+<div><span class="k">Official source</span><span class="v"><a href="https://doi.org/10.13140/RG.2.2.31318.56649">ResearchGate (preprint) · associated conference material</a></span></div>
+<div><span class="k">Full text</span><span class="v">Via official record (link)</span></div>
+</div>
+
+<div class="actions"><a class="btn" href="https://doi.org/10.13140/RG.2.2.31318.56649">Official record (DOI)</a><a class="btn btn-ghost" href="#cite">Cite</a><a class="btn btn-ghost" href="cite.bib">BibTeX</a><a class="btn btn-ghost" href="cite.ris">RIS</a></div>
+
+<div class="abstract-box">
+<h2>Abstract</h2>
+<p>Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies. TotalSpineSeg uses cascaded nnU-Net models and landmark-guided iterative labeling to segment vertebrae, intervertebral discs, spinal cord, and spinal canal across MRI contrasts.</p>
+<p class="keywords"><span class="k">Keywords</span> — MRI, spine, vertebrae, segmentation, labeling, nnU-Net</p>
+</div>
+
+<div class="article-body">
+<h2 class="num"><span class="n">1.</span>Research problem</h2>
+<p>Accurate segmentation and labeling of spinal structures are essential for diagnosing and managing spinal pathologies.</p>
+
+<h2 class="num"><span class="n">2.</span>Contribution</h2>
+<ul><li>Cascaded nnU-Net models with landmark-guided iterative labeling.</li><li>Segments vertebrae, intervertebral discs, spinal cord and spinal canal across MRI contrasts.</li></ul>
+
+<h2 class="num"><span class="n">3.</span>Architecture, methodology &amp; evidence status</h2>
+<div class="callout"><span class="k">Evidence &amp; status</span>This is a preprint hosted on ResearchGate (preprint) · associated conference material and has <strong>not undergone peer review</strong>. It is an independent research contribution; its claims and any reported experiments should be read as such.</div>
+<p class="small">The abstract above is the authoritative summary of the work as posted at the official source. This archival record does not add results, figures or claims beyond those in the published/​posted manuscript. For the complete methodology, results and references, consult the official record.</p>
+
+<h2 class="num"><span class="n">4.</span>Related research</h2><p>Part of the series <a href="/series/clinical-ai-multiple-sclerosis/">Clinical AI and Multiple Sclerosis Research</a>.</p><ul class="related-list"><li><a href="/research/works/finger-dexterity-biosensing/">Development of an interactive biosensing application for assessing finger dexterity</a><div class="rmeta">2025 · Peer-reviewed journal article</div></li><li><a href="/research/works/ppms-brain-volume/">Mapping brain volume change across time in primary-progressive multiple sclerosis</a><div class="rmeta">2024 · Peer-reviewed journal article</div></li><li><a href="/research/works/ms-third-booster/">COVID-19 vaccination in patients with multiple sclerosis: Safety and humoral efficacy of the third booster dose</a><div class="rmeta">2022 · Peer-reviewed journal article</div></li><li><a href="/research/works/ms-vaccination-february-2021/">COVID-19 vaccination in patients with multiple sclerosis: What we have learnt by February 2021</a><div class="rmeta">2021 · Peer-reviewed journal article</div></li></ul>
+
+
+<h2 class="num"><span class="n">5.</span>How to cite</h2>
+<p>Choose a format below. BibTeX and RIS files are also downloadable directly.</p>
+<div class="cite-panel" id="cite">
+<div class="cite-tabs" role="tablist">
+<button class="active" data-tab="apa">APA</button>
+<button data-tab="chicago">Chicago</button>
+<button data-tab="bibtex">BibTeX</button>
+<button data-tab="ris">RIS</button></div>
+<div class="cite-body">
+<div class="cite-pane prose active" data-tab="apa" data-fmt="APA"><p>Warszawer, Y., Molinier, N., Valošek, J., Benveniste, P., Bédard, S., Shirbint, E., Mohamed, F. B., Tsagkas, C., Kolind, S., Lynd, L., Oh, J., Prat, A., Tam, R., Traboulsee, A., Patten, S., Lee, L. E., Achiron, A., &amp; Cohen-Adad, J. (2025). TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI. ResearchGate (preprint) · associated conference material. https://doi.org/10.13140/RG.2.2.31318.56649</p><button class="copy-btn">Copy</button></div>
+<div class="cite-pane prose" data-tab="chicago" data-fmt="Chicago"><p>Yehuda Warszawer, Nathan Molinier, Jan Valošek, Pierre-Louis Benveniste, Sandrine Bédard, Emanuel Shirbint, Feroze B. Mohamed, et al. 2025. “TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI.” ResearchGate (preprint) · associated conference material. https://doi.org/10.13140/RG.2.2.31318.56649.</p><button class="copy-btn">Copy</button></div>
+<div class="cite-pane" data-tab="bibtex" data-fmt="BibTeX"><pre>@misc{shirbint2025totalspineseg,
+  title = {TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI},
+  author = {Yehuda Warszawer and Nathan Molinier and Jan Valosek and Pierre-Louis Benveniste and Sandrine Bedard and Emanuel Shirbint and Feroze B. Mohamed and Charidimos Tsagkas and Shannon Kolind and Larry Lynd and Jiwon Oh and Alexandre Prat and Roger Tam and Anthony Traboulsee and Scott Patten and Lisa Eunyoung Lee and Anat Achiron and Julien Cohen-Adad},
+  year = {2025},
+  doi = {10.13140/RG.2.2.31318.56649},
+  url = {https://doi.org/10.13140/RG.2.2.31318.56649},
+  note = {Preprint; associated conference work is not a journal peer-review record}
+}</pre><button class="copy-btn">Copy</button></div>
+<div class="cite-pane" data-tab="ris" data-fmt="RIS"><pre>TY  - PREPRINT
+AU  - Yehuda Warszawer
+AU  - Nathan Molinier
+AU  - Jan Valosek
+AU  - Pierre-Louis Benveniste
+AU  - Sandrine Bedard
+AU  - Emanuel Shirbint
+AU  - Feroze B. Mohamed
+AU  - Charidimos Tsagkas
+AU  - Shannon Kolind
+AU  - Larry Lynd
+AU  - Jiwon Oh
+AU  - Alexandre Prat
+AU  - Roger Tam
+AU  - Anthony Traboulsee
+AU  - Scott Patten
+AU  - Lisa Eunyoung Lee
+AU  - Anat Achiron
+AU  - Julien Cohen-Adad
+TI  - TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI
+PY  - 2025
+DO  - 10.13140/RG.2.2.31318.56649
+UR  - https://doi.org/10.13140/RG.2.2.31318.56649
+N1  - Preprint; associated conference work is not a journal peer-review record
+ER  -</pre><button class="copy-btn">Copy</button></div>
+</div></div>
+
+<p class="small" style="margin-top:1.4rem"><a href="/research/">← Return to the complete research archive</a></p>
+</div>
+</article>
+</div></main>
+<script>
+document.querySelectorAll('.cite-tabs button').forEach(function(b){
+ b.addEventListener('click',function(){
+  var t=b.getAttribute('data-tab');
+  b.parentNode.querySelectorAll('button').forEach(function(x){x.classList.toggle('active',x===b)});
+  document.querySelectorAll('.cite-pane').forEach(function(p){p.classList.toggle('active',p.getAttribute('data-tab')===t)});
+ });
+});
+document.querySelectorAll('.copy-btn').forEach(function(btn){
+ btn.addEventListener('click',function(){
+  var pane=btn.closest('.cite-pane'),el=pane.querySelector('pre,p'),txt=el?el.textContent:'';
+  navigator.clipboard&&navigator.clipboard.writeText(txt).then(function(){var o=btn.textContent;btn.textContent='Copied';setTimeout(function(){btn.textContent=o},1400)});
+ });
+});
+</script><footer class="site-footer"><div class="footer-inner">
+<div>
+<h4>Emanuel Shirbint Research Review</h4>
+<p class="footer-name">Emanuel Shirbint · עמנואל שירבינט · Эмануэль Ширбинт</p>
+<p>Independent scholarly research archive and author publication platform. This archive is an independent author publication platform. It is not a peer-reviewed journal, an academic publisher, an institution, or an ISSN-registered publication. Publication and peer-review status is stated on every record.</p>
+<p><a href="https://orcid.org/0009-0004-8538-7140">ORCID 0009-0004-8538-7140</a> · <a href="https://il.linkedin.com/in/emanuel-shirbint-b89030a">LinkedIn</a> · <a href="https://www.researchgate.net/profile/Emanuel-Shirbint">ResearchGate</a></p>
+</div>
+<div><h4>Sections</h4><a href="/">Home</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a><a href="/research-areas/">Research Areas</a><a href="/media/">Media</a></div>
+<div><h4>Research Areas</h4><a href="/governed-agent-systems/">Governed Agent Systems</a><a href="/llm-safety-evaluation/">LLM Safety and Evaluation</a><a href="/human-medical-digital-twins/">Human and Medical Digital Twins</a><a href="/ai-ethics-governance/">AI Ethics and Institutional Governance</a><a href="/clinical-ai/">Clinical AI</a><a href="/data-ai-architecture/">BI/DWH and Data Architecture</a></div>
+<div class="footer-note">© 2026 Emanuel Shirbint. Records are deduplicated by DOI and version lineage; each work preserves its publication and peer-review status. Canonical URL: https://emanuelshirbint.github.io · <a href="/sitemap.xml">Sitemap</a> · <a href="/feed.xml">Feed</a> · <a href="/robots.txt">robots.txt</a></div>
+</div></footer></body></html>
