@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://emanuelshirbint.github.io/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/who-is-emanuel-shirbint/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/research/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/research/status-and-evidence/</loc>
@@ -22,11 +22,11 @@
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/publications/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/research-areas/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/presentations/</loc>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/series/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/he/</loc>
@@ -62,15 +62,15 @@
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/feed.xml</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/research/feed.xml</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/governed-agent-systems/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/llm-safety-evaluation/</loc>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/ai-ethics-governance/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/clinical-ai/</loc>
@@ -109,12 +109,20 @@
     <lastmod>2026-07-29</lastmod>
   </url>
   <url>
+    <loc>https://emanuelshirbint.github.io/series/governed-epistemic-transformation/</loc>
+    <lastmod>2026-08-04</lastmod>
+  </url>
+  <url>
     <loc>https://emanuelshirbint.github.io/series/clinical-ai-multiple-sclerosis/</loc>
     <lastmod>2026-07-29</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/series/bi-dwh-data-architecture/</loc>
     <lastmod>2026-07-29</lastmod>
+  </url>
+  <url>
+    <loc>https://emanuelshirbint.github.io/research/works/reinforcement-learning-contour/</loc>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://emanuelshirbint.github.io/research/works/institutional-volition-systemic-error/</loc>

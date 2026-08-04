@@ -6,7 +6,16 @@
   <atom:link href="https://emanuelshirbint.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Independent scholarly research archive and author publication platform. Verified research works with publication and peer-review status.</description>
   <language>en</language>
-  <lastBuildDate>2026-07-29</lastBuildDate>
+  <lastBuildDate>2026-08-04</lastBuildDate>
+  <item>
+    <title>The Reinforcement Learning Contour: From Document Production to Governed Epistemic Transformation in AI-Assisted Scientific Inquiry</title>
+    <link>https://emanuelshirbint.github.io/research/works/reinforcement-learning-contour/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/reinforcement-learning-contour/</guid>
+    <dc:creator>Emanuel Shirbint</dc:creator>
+    <category>Not peer-reviewed</category>
+    <pubDate>2026-08-04</pubDate>
+    <description>Generative artificial intelligence has sharply reduced the technical cost of producing scientific text. Increased production capacity does not, however, entail cumulative knowledge, conceptual novelty, or epistemic progress. This paper introduces the Reinforcement Learning Contour (RLC) as a conceptual and architectural framework for shifting AI-assisted research from repetitive content generation toward governed recursive learning. The RLC is not proposed as a conventional reinforcement-learning algorithm and does not claim equivalence with a Markov decision process, scalar reward funct</description>
+  </item>
   <item>
     <title>When Local Truth Produces Global Falsehood: Moral Grounding, Institutional Volition, and Systemic Error in Artificial Intelligence</title>
     <link>https://emanuelshirbint.github.io/research/works/institutional-volition-systemic-error/</link>
