@@ -16,6 +16,8 @@
   --accent:#5c1f26;      /* muted burgundy — single scholarly accent */
   --accent-soft:#7a3a40;
   --accent-bg:#f0e6df;
+  --gold:#9a7526;        /* antique gold — display accent for italic words */
+  --gold-soft:#b8943a;
   --green:#33503f;       /* used sparingly for "published" cues */
   --link:#5c1f26;
   --maxw:1120px;
