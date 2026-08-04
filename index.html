@@ -43,7 +43,22 @@
   .latest-enh .entry::before{font-size:1.2rem;top:.95rem}
   .latest-enh .entry::after{left:2.5rem}
 }
+/* Hero statement — large light editorial band (scoped) */
+.hero-statement{padding:3.4rem 0 3rem;border-bottom:1px solid var(--rule);margin-bottom:1.4rem}
+.hs-eyebrow{font-family:var(--sans);font-size:.62rem;letter-spacing:.4em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:.9rem;margin:0 0 1.4rem}
+.hs-eyebrow::before{content:"";width:44px;height:1px;background:var(--accent);opacity:.7;flex:none}
+.hs-title{font-family:"Cormorant",var(--serif);font-weight:500;font-size:clamp(2.4rem,5.6vw,4.7rem);line-height:1.02;letter-spacing:-.005em;color:var(--ink);margin:0 0 1.7rem;max-width:20ch}
+.hs-title em{font-style:italic;color:var(--accent);font-weight:500}
+.hs-quote{font-family:"EB Garamond",var(--serif);font-style:italic;font-size:clamp(1.15rem,2.2vw,1.72rem);line-height:1.48;color:var(--ink-soft);border-left:2px solid var(--accent);padding-left:1.4rem;margin:0 0 .9rem;max-width:42rem}
+.hs-attr{font-family:var(--sans);font-size:.74rem;letter-spacing:.05em;color:var(--muted);margin:0 0 1.7rem}
+.hs-attr a{color:var(--accent);text-decoration:none}
+.hs-attr a:hover{text-decoration:underline}
+.hs-lede{font-size:1rem;line-height:1.72;color:var(--ink-soft);max-width:47rem;margin:0}
+@media (max-width:640px){.hero-statement{padding:2.2rem 0 2rem}.hs-title{max-width:none}}
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;1,400;1,500&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Emanuel Shirbint Research Review", "headline": "Emanuel Shirbint Research Review", "description": "Independent scholarly research archive and author publication platform.", "url": "https://emanuelshirbint.github.io/", "inLanguage": "en", "about": ["Governed Agent Systems", "LLM Safety and Evaluation", "Human and Medical Digital Twins", "AI Ethics and Institutional Governance", "Clinical AI", "BI/DWH and Data Architecture"], "author": {"@type": "Person", "name": "Emanuel Shirbint", "url": "https://emanuelshirbint.github.io/who-is-emanuel-shirbint/", "identifier": [{"@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0004-8538-7140", "url": "https://orcid.org/0009-0004-8538-7140"}, {"@type": "PropertyValue", "propertyID": "Scopus Author ID", "value": "57223002583"}], "sameAs": ["https://orcid.org/0009-0004-8538-7140", "https://www.researchgate.net/profile/Emanuel-Shirbint", "https://www.scopus.com/authid/detail.uri?authorId=57223002583", "https://github.com/EmanuelShirbint", "https://il.linkedin.com/in/emanuel-shirbint-b89030a"]}}</script></head><body><header class="masthead"><div class="masthead-inner">
 <div><p class="masthead-title"><a href="/">Emanuel Shirbint Research Review</a></p>
 <p class="masthead-sub">Independent Research Archive · Data, Artificial Intelligence, Clinical Systems and Institutional Governance</p></div>
@@ -53,6 +68,13 @@
 <button class="nav-toggle" aria-expanded="false" aria-controls="navlinks" onclick="var n=document.getElementById('navlinks');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ▾</button>
 <div class="nav-links" id="navlinks"><a href="/" aria-current="page">Home</a><a href="/research/" class="primary">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a></div>
 </div></nav><main><div class="page">
+<section class="hero-statement">
+<p class="hs-eyebrow">Independent Research Archive</p>
+<h1 class="hs-title">Not the document — the <em>transformation</em> of the mechanism that produced it.</h1>
+<blockquote class="hs-quote">A research cycle can be epistemically successful even when it produces no publishable document — provided it improves the mechanism from which future inquiry emerges.</blockquote>
+<p class="hs-attr">— from <a href="/research/works/reinforcement-learning-contour/">The Reinforcement Learning Contour</a>, 2026</p>
+<p class="hs-lede">An independent scholarly archive across data, artificial intelligence, clinical systems, and institutional governance. Publication and peer-review status is stated for every record.</p>
+</section>
 <div class="frontline"><span>Independent Research Archive</span>
 <span>Data · Artificial Intelligence · Clinical Systems · Institutional Governance</span>
 <span>11 records</span></div>
