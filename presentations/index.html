@@ -11,6 +11,39 @@
 <meta property="og:site_name" content="Emanuel Shirbint Research Review">
 <link rel="alternate" type="application/rss+xml" title="Emanuel Shirbint Research Review — feed" href="/feed.xml">
 <link rel="stylesheet" href="/styles.css">
+<style>
+/* Presentations page — elegant editorial enhancements (scoped to .pres) */
+.pres .pagehead .kicker{display:inline-flex;align-items:center;gap:.7rem}
+.pres .pagehead .kicker::before{content:"";width:28px;height:1px;background:var(--accent);opacity:.65}
+.pres ol.contents{counter-reset:presnum}
+.pres .entry{position:relative;padding-left:3.5rem;transition:transform .4s ease}
+.pres .entry::before{
+  counter-increment:presnum;
+  content:counter(presnum,decimal-leading-zero);
+  position:absolute;left:0;top:1.05rem;
+  font-family:var(--serif);font-size:1.55rem;font-weight:400;line-height:1;
+  color:var(--rule-strong);letter-spacing:.01em;transition:color .4s ease;
+}
+.pres .entry:hover::before{color:var(--accent)}
+.pres .entry::after{
+  content:"";position:absolute;left:3.5rem;right:0;bottom:-1px;height:2px;
+  background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .5s ease;
+}
+.pres .entry:hover::after{transform:scaleX(1)}
+.pres .entry:hover{transform:translateX(5px)}
+.pres .entry-title a{transition:color .3s ease}
+.pres .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
+.pres .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .pres .reveal{opacity:1;transform:none;transition:none}
+  .pres .entry,.pres .entry:hover,.pres .entry::after{transition:none;transform:none}
+}
+@media (max-width:640px){
+  .pres .entry{padding-left:2.6rem}
+  .pres .entry::before{font-size:1.25rem;top:.95rem}
+  .pres .entry::after{left:2.6rem}
+}
+</style>
 </head><body><header class="masthead"><div class="masthead-inner">
 <div><p class="masthead-title"><a href="/">Emanuel Shirbint Research Review</a></p>
 <p class="masthead-sub">Independent Research Archive · Data, Artificial Intelligence, Clinical Systems and Institutional Governance</p></div>
@@ -19,7 +52,7 @@
 <nav class="nav" aria-label="Primary"><div class="nav-inner">
 <button class="nav-toggle" aria-expanded="false" aria-controls="navlinks" onclick="var n=document.getElementById('navlinks');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ▾</button>
 <div class="nav-links" id="navlinks"><a href="/">Home</a><a href="/research/" class="primary">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/" aria-current="page">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a></div>
-</div></nav><main><div class="page">
+</div></nav><main><div class="page pres">
 <div class="pagehead"><p class="kicker">Presentations &amp; Working Papers</p><h1>Presentations &amp; Working Papers</h1>
 <p class="lead">Slide decks accompanying the preprints. These are supplementary materials; each links to its research record and official DOI. They are not peer-reviewed outputs.</p></div>
 <ol class="contents"><li class="entry"><div class="entry-badges"><span class="badge badge-type">Presentation</span><span class="badge badge-preprint">Preprint</span><span class="badge badge-type">Conceptual Framework</span></div>
@@ -54,4 +87,18 @@
 <div><h4>Sections</h4><a href="/">Home</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/research-areas/">Research Areas</a><a href="/presentations/">Presentations</a><a href="/projects/">Projects</a><a href="/who-is-emanuel-shirbint/">About</a><a href="/contact/">Contact</a><a href="/scholarly-profiles/">Scholarly Profiles</a></div>
 <div><h4>Scholarly profiles</h4><div class="footer-profiles"><a href="https://orcid.org/0009-0004-8538-7140" rel="me noopener noreferrer">ORCID</a><a href="https://www.researchgate.net/profile/Emanuel-Shirbint" rel="me noopener noreferrer">ResearchGate</a><a href="https://www.scopus.com/authid/detail.uri?authorId=57223002583" rel="me noopener noreferrer">Scopus</a><a href="https://github.com/EmanuelShirbint" rel="me noopener noreferrer">GitHub</a><a href="https://il.linkedin.com/in/emanuel-shirbint-b89030a" rel="me noopener noreferrer">LinkedIn</a><a href="/scholarly-profiles/">Scholarly Profiles →</a></div></div>
 <div class="footer-note">© 2026 Emanuel Shirbint. Records are deduplicated by DOI and version lineage; each work preserves its publication and peer-review status. Canonical URL: https://emanuelshirbint.github.io · <a href="/sitemap.xml">Sitemap</a> · <a href="/feed.xml">Feed</a> · <a href="/robots.txt">robots.txt</a></div>
-</div></footer></body></html>
+</div></footer>
+<script>
+(function(){
+ var pg=document.querySelector('.page.pres'); if(!pg) return;
+ var items=pg.querySelectorAll('.entry'); if(!items.length) return;
+ if(!('IntersectionObserver' in window)) return;
+ if(window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+ items.forEach(function(el){el.classList.add('reveal');});
+ var io=new IntersectionObserver(function(entries){
+  entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+ },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+ items.forEach(function(el){io.observe(el);});
+})();
+</script>
+</body></html>
