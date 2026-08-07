@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>From explanation to intervention: why confidence is not authority</title>
+  <meta name="description" content="A primary-source guide to Emanuel Shirbint's closed-loop medical-digital-twin preprint and the boundary between supported inference and authorized clinical action.">
+  <meta name="author" content="Emanuel Shirbint">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://emanuelshirbint.github.io/research/from-explanation-to-authorized-intervention/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="From explanation to intervention: why confidence is not authority">
+  <meta property="og:description" content="What a new conceptual preprint proposes, what its evidence establishes, and what it does not authorize.">
+  <meta property="og:url" content="https://emanuelshirbint.github.io/research/from-explanation-to-authorized-intervention/">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    header{max-width:1120px;margin:auto;padding:1.25rem 1.5rem;border-bottom:3px double var(--rule-strong)}nav{display:flex;gap:1rem;flex-wrap:wrap}.article{max-width:900px;margin:auto;padding:2rem 1.5rem 4rem}.article h2{margin-top:3rem}.lede{font-size:1.25rem}.notice{border-left:4px solid var(--gold);padding:1rem 1.25rem;background:var(--paper);margin:2rem 0}.labels{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0}.label{display:inline-block;font:700 .72rem Arial;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);border:1px solid var(--accent);padding:.3rem .5rem}.path{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.65rem;margin:1.5rem 0}.step{border:1px solid var(--rule);padding:1rem;background:var(--paper)}.comparison{width:100%;border-collapse:collapse;margin:1.5rem 0}.comparison th,.comparison td{border:1px solid var(--rule);padding:.85rem;text-align:left;vertical-align:top}.comparison th{background:var(--paper)}.sources li{margin:.55rem 0}.small{color:var(--muted);font-size:.92rem}footer{max-width:1120px;margin:auto;padding:1.5rem;border-top:1px solid var(--rule)}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"From explanation to intervention: why confidence is not authority",
+    "author":{"@type":"Person","name":"Emanuel Shirbint"},
+    "datePublished":"2026-08-07",
+    "dateModified":"2026-08-07",
+    "mainEntityOfPage":"https://emanuelshirbint.github.io/research/from-explanation-to-authorized-intervention/",
+    "about":["medical digital twins","clinical AI governance","human oversight","authorized intervention","Emanuel Shirbint"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Emanuel Shirbint</a>
+      <a href="/who-is-emanuel-shirbint/">Who</a>
+      <a href="/research/">Research</a>
+      <a href="/data-ai-architecture/">Data &amp; AI</a>
+      <a href="/governed-agent-systems/">Governed agents</a>
+      <a href="/llm-safety-evaluation/">LLM safety</a>
+      <a href="/clinical-ai/">Clinical AI</a>
+      <a href="/publications/">Publications</a>
+      <a href="/projects/">Projects</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+  <main class="article">
+    <article>
+      <section class="hero">
+        <p class="eyebrow">Primary-source research explainer · 7 August 2026</p>
+        <h1>Evidence can support an explanation. It cannot grant authority to act.</h1>
+        <p class="dek">A new public preprint by Emanuel Shirbint proposes a governed closed loop for medical digital twins in multiple-sclerosis care. Its central rule is deliberately narrow: an explanation, however plausible or well supported, must not move directly into clinical intervention.</p>
+      </section>
+
+      <div class="labels" aria-label="Publication and claim status">
+        <span class="label">Preprint · Version 1</span>
+        <span class="label">Not peer reviewed</span>
+        <span class="label">Conceptual architecture</span>
+        <span class="label">No clinical deployment claim</span>
+        <span class="label">Not medical advice</span>
+        <span class="label">No autonomous treatment authority</span>
+      </div>
+
+      <div class="notice">
+        <strong>Claim boundary.</strong> The primary record describes a conceptual architecture and proposed validation path. It does not report a deployed medical device, a clinical trial, autonomous prescribing, validated patient-outcome improvement, regulatory approval, or permission to bypass qualified clinical judgment and patient consent.
+      </div>
+
+      <p class="lede">The paper separates two questions that fluent AI systems can easily blur: <em>What is probably happening?</em> and <em>What should be done, by whom, under whose authority?</em> The first is epistemic. The second is clinical, institutional, legal, and personal.</p>
+
+      <h2>The governed path</h2>
+      <p>The proposed loop keeps each transition visible so that a recommendation cannot acquire borrowed authority merely because it appears inside a sophisticated system.</p>
+      <div class="path" aria-label="Governed closed-loop sequence">
+        <div class="step"><strong>1. Evidence</strong><br>Typed, time-stamped observations with provenance.</div>
+        <div class="step"><strong>2. Patient state</strong><br>A temporal representation that preserves unknowns and contradictions.</div>
+        <div class="step"><strong>3. Hypotheses</strong><br>Competing explanations, counter-evidence, and an explicit unknown state.</div>
+        <div class="step"><strong>4. Causal review</strong><br>Separation of association, mechanism, and intervention effect.</div>
+        <div class="step"><strong>5. Governance gates</strong><br>Eligibility, evidence quality, scope, consent, and escalation checks.</div>
+        <div class="step"><strong>6. Authorized decision</strong><br>A legitimate human decision state, not an approval ornament.</div>
+        <div class="step"><strong>7. Action contract</strong><br>Owner, timing, monitoring, stop rules, and accountability.</div>
+        <div class="step"><strong>8. Outcomes</strong><br>Observed consequences return as new evidence without overwriting history.</div>
+      </div>
+
+      <h2>What the gates are designed to prevent</h2>
+      <table class="comparison">
+        <thead><tr><th>Gate</th><th>Question it preserves</th><th>Unsafe shortcut it blocks</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Evidence integrity</th><td>Are source, identity, measurement, and transformation records trustworthy?</td><td>Treating generated or mislinked data as observed fact.</td></tr>
+          <tr><th scope="row">Temporal validity</th><td>Is the evidence recent enough for this decision?</td><td>Turning stale records into current clinical certainty.</td></tr>
+          <tr><th scope="row">Competing hypotheses</th><td>What contradicts the leading explanation, and what remains unknown?</td><td>Premature closure around a fluent narrative.</td></tr>
+          <tr><th scope="row">Causal support</th><td>Does the evidence support an intervention effect, not only an association?</td><td>Presenting correlation as a treatment rationale.</td></tr>
+          <tr><th scope="row">Eligibility</th><td>Do indication, risk, contraindications, alternatives, and monitoring support consideration?</td><td>Confusing a plausible option with a suitable action.</td></tr>
+          <tr><th scope="row">Authority and consent</th><td>Who may decide, and has the patient authorized the relevant use?</td><td>Borrowing legitimacy from a model, institution, or interface.</td></tr>
+          <tr><th scope="row">Safe learning</th><td>Can outcomes update the system without erasing the original recommendation and decision?</td><td>Rewriting history or learning silently from ungoverned action.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Human oversight must be observable</h2>
+      <p>The preprint proposes an oversight-quality profile rather than treating a clicked approval button as proof of meaningful review. Relevant signals include whether evidence was inspected, whether alternatives were considered, how long the review took, whether reasoned dissent occurred, and whether escalation remained possible. A low override rate alone cannot distinguish an accurate system from ceremonial approval.</p>
+
+      <h2>Urgency changes the route, not the invariant</h2>
+      <p>The architecture allows a bounded emergency route through pre-authorized delegation and mandatory retrospective ratification. That is not an exemption from authorization. It changes who authorizes and when the authorization is reviewed while keeping an authorized decision state on the path to action.</p>
+
+      <h2>What the public evidence establishes</h2>
+      <p>The Preprints.org primary record identifies Emanuel Shirbint as the sole author, labels the work Version 1 and not peer-reviewed, records submission on 30 July 2026 and posting on 31 July 2026, and exposes the conceptual abstract. Crossref's publisher-deposited record confirms the title, author, preprint subtype, DOI, and publication date. Europe PMC independently indexes the same DOI and author record.</p>
+      <p>Those records establish authorship, public availability, version, status, and the stated conceptual contribution. They do not establish clinical effectiveness, implementation, regulatory standing, production use, employment history, or advisory work. Peer-reviewed journal articles, conference proceedings, preprints, conceptual research, production systems, employment, and advisory claims remain separate evidence classes.</p>
+
+      <h2>Primary records</h2>
+      <ul class="sources">
+        <li><a href="https://www.preprints.org/manuscript/202607.2365">Preprints.org Version 1 record</a> — submitted 30 July 2026, posted 31 July 2026, explicitly marked not peer-reviewed.</li>
+        <li><a href="https://doi.org/10.20944/preprints202607.2365.v1">DOI 10.20944/preprints202607.2365.v1</a> — publisher-deposited preprint metadata.</li>
+        <li><a href="https://europepmc.org/article/PPR/PPR1292259">Europe PMC record PPR1292259</a> — matching DOI, title, sole-author string, publication date, and abstract.</li>
+      </ul>
+
+      <p class="small">Evidence checked 7 August 2026 (Asia/Jerusalem). Citation counts are intentionally omitted from this asset because current registry counts and coverage are not reconciled into the canonical claim ledger.</p>
+    </article>
+  </main>
+  <footer>Evidence-backed research library · Emanuel Shirbint</footer>
+</body>
+</html>
