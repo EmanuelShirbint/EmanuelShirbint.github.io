@@ -1,0 +1,53 @@
+<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Beyond pass rates: what survives after the guardrail? — Emanuel Shirbint</title><meta name="description" content="An evidence-backed guide to two non-peer-reviewed synthetic-pilot preprints on structural LLM-agent safety evaluation."><meta name="author" content="Emanuel Shirbint"><link rel="canonical" href="https://emanuelshirbint.github.io/research/beyond-pass-rates/"><link rel="alternate" hreflang="en" href="https://emanuelshirbint.github.io/who-is-emanuel-shirbint/"><link rel="alternate" hreflang="he" href="https://emanuelshirbint.github.io/he/"><link rel="alternate" hreflang="ru" href="https://emanuelshirbint.github.io/ru/"><meta property="og:type" content="profile"><meta property="og:title" content="Beyond pass rates: what survives after the guardrail? — Emanuel Shirbint"><meta property="og:description" content="An evidence-backed guide to two non-peer-reviewed synthetic-pilot preprints on structural LLM-agent safety evaluation."><meta property="og:url" content="https://emanuelshirbint.github.io/research/beyond-pass-rates/"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Emanuel Shirbint","alternateName":["עמנואל שירבינט","Эмануэль Ширбинт"],"jobTitle":"Data & AI Architect","description":"Emanuel Shirbint is a Data & AI Architect working at the intersection of governed agent systems, LLM safety and evaluation, BI/DWH architecture, clinical AI, and institutional governance.","sameAs":["https://il.linkedin.com/in/emanuel-shirbint-b89030a","https://www.researchgate.net/profile/Emanuel-Shirbint"]}</script></head><body><header><nav><a href="/">Emanuel Shirbint</a><a href="/who-is-emanuel-shirbint/">Who</a><a href="/research/">Research</a><a href="/data-ai-architecture/">Data & AI</a><a href="/governed-agent-systems/">Governed agents</a><a href="/llm-safety-evaluation/">LLM safety</a><a href="/clinical-ai/">Clinical AI</a><a href="/publications/">Publications</a><a href="/projects/">Projects</a><a href="/media/">Media</a><a href="/contact/">Contact</a></nav></header><main class=""><article>
+  <section class="hero">
+    <p class="eyebrow">Evidence guide · LLM-agent safety</p>
+    <h1>Beyond pass rates: what survives after the guardrail?</h1>
+    <p class="dek">A source-led guide to two proposed structural tests for distinguishing measured improvement from hidden persistence in LLM-agent safety evaluation.</p>
+  </section>
+
+  <p><strong>Status:</strong> Version 1 preprints · Not peer-reviewed · Empirical studies · Synthetic pilots · No production-agent validation claimed</p>
+
+  <h2>The evaluation problem</h2>
+  <p>A lower attack-success or policy-violation rate is useful evidence, but it does not by itself show why the rate fell. A safety intervention may have removed a reusable failure route, or it may have suppressed the measured examples while a related route remains available under different pressure. The two public preprints treat frequency metrics as necessary but incomplete and ask a structural follow-up question: which safe and unsafe behavioural patterns persist as adversarial pressure increases?</p>
+
+  <h2>Two linked proposals</h2>
+  <div class="grid">
+    <section class="card">
+      <span class="tag">Preprint · Synthetic pilot</span>
+      <h3>Topological robustness and anti-fragility</h3>
+      <p>The first framework represents responses, decisions, and tool-call trajectories as a pressure-indexed structure. It proposes testing whether a safe core remains stable and whether controlled hardening improves the before/after structure on held-out attacks.</p>
+      <p>The reported pilot used 1,440 generated traces. Its stated scope is a controlled proof of concept with known ground truth, not external validation over production LLMs.</p>
+    </section>
+    <section class="card">
+      <span class="tag">Preprint · Synthetic pilot</span>
+      <h3>Pressure-filtered persistence and the Masking Index</h3>
+      <p>The follow-up study proposes a diagnostic for the specific case in which development-suite frequency improves while held-out unsafe structure remains. The Masking Index is intended to separate apparent cleaning from structural hardening under stated correspondence and stability assumptions.</p>
+      <p>The reported instrument-validation study used 5,760 generated traces with 32 repetitions per cell. The paper says this validates the detector on planted synthetic ground truth, not predictive value on real agents.</p>
+    </section>
+  </div>
+
+  <h2>How to read the evidence</h2>
+  <table>
+    <thead><tr><th>Question</th><th>Supported interpretation</th><th>Unsupported leap</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Did measured failures become less frequent?</th><td>Use held-out frequency estimates and uncertainty intervals.</td><td>Assuming a lower rate proves the underlying route disappeared.</td></tr>
+      <tr><th scope="row">Did unsafe structure persist under pressure?</th><td>Use the proposed pressure-filtered summaries as a complementary diagnostic.</td><td>Treating a synthetic instrument result as production effectiveness.</td></tr>
+      <tr><th scope="row">Did hardening generalize?</th><td>Require held-out attacks, fixed correspondence rules, and prospective falsification conditions.</td><td>Reusing the development suite as proof of generalization.</td></tr>
+      <tr><th scope="row">Is the method operationally validated?</th><td>The checked records establish proposed methods and synthetic pilots.</td><td>Claiming external, production, regulatory, or peer-reviewed validation.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>What the public records establish</h2>
+  <p>Crossref and Europe PMC currently index both titles, both DOI-version identifiers, Emanuel Shirbint and Alexander Rybalov as authors, and 2026 posting dates. The canonical research manifest labels both works as preprints, empirical studies, synthetic pilots, and public Version 1 records. Citation counts are omitted because registry coverage and counts are not reconciled into the public claim ledger.</p>
+  <p>These records do not establish peer review, production deployment, employment, advisory work, clinical use, or validated performance on real-world agents. Peer-reviewed work, conference work, preprints, conceptual research, production systems, employment, and advisory work remain distinct evidence classes.</p>
+
+  <h2>Primary records</h2>
+  <ul>
+    <li><a href="https://doi.org/10.21203/rs.3.rs-9932131/v1">A Topological Robustness and Anti-Fragility Framework for LLM Agents — Version 1 DOI record</a></li>
+    <li><a href="https://europepmc.org/article/PPR/PPR1248684">Europe PMC record PPR1248684</a></li>
+    <li><a href="https://doi.org/10.21203/rs.3.rs-10026792/v1">Measuring What Survives: Pressure-Filtered Persistence and a Masking Index for LLM-Agent Safety Evaluation — Version 1 DOI record</a></li>
+    <li><a href="https://europepmc.org/article/PPR/PPR1253108">Europe PMC record PPR1253108</a></li>
+  </ul>
+
+  <p><small>Evidence checked 11 August 2026 (Asia/Jerusalem). This asset is an evidence guide, not a claim of peer review or production validation.</small></p>
+</article></main><footer>Evidence-backed public profile · Emanuel Shirbint · עמנואל שירבינט · Эмануэль Ширбинт</footer></body></html>
