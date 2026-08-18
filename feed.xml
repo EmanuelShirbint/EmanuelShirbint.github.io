@@ -6,7 +6,16 @@
   <atom:link href="https://emanuelshirbint.github.io/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Independent scholarly research archive and author publication platform. Verified research works with publication and peer-review status.</description>
   <language>en</language>
-  <lastBuildDate>2026-08-04</lastBuildDate>
+  <lastBuildDate>2026-08-18</lastBuildDate>
+  <item>
+    <title>Bounded Recursive Self-Improvement Under Human Governance: Evidence from a Seven-Cycle Reinforcement Learning Contour Experiment</title>
+    <link>https://emanuelshirbint.github.io/research/works/bounded-recursive-self-improvement/</link>
+    <guid isPermaLink="true">https://emanuelshirbint.github.io/research/works/bounded-recursive-self-improvement/</guid>
+    <dc:creator>Emanuel Shirbint</dc:creator>
+    <category>Version 2 preprint · Not peer-reviewed · Governed local experiment</category>
+    <pubDate>2026-08-17</pubDate>
+    <description>A bounded seven-cycle scaffolding-level experiment with separate human promotion authority. The public record reports four promoted states, one retained failed transition, and two NO_CHANGE outcomes; it does not establish AGI, unbounded improvement, autonomous promotion, permanent saturation, or external production validation.</description>
+  </item>
   <item>
     <title>The Reinforcement Learning Contour: From Document Production to Governed Epistemic Transformation in AI-Assisted Scientific Inquiry</title>
     <link>https://emanuelshirbint.github.io/research/works/reinforcement-learning-contour/</link>
